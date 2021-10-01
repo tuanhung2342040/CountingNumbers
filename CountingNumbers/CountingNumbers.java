@@ -6,7 +6,8 @@
  Instructor: Vladimir Cheney
  Purpose: This program compute the total number of peas that a
           person has assuming that every peapod contains the same
-          number of peas, that is, 9.
+          number of peas, that is, 9. 1 thang dien
+          
  Input:   Number of peapods
  Output:  The total number of peas
 */
