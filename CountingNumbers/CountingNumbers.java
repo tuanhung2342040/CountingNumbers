@@ -1,4 +1,4 @@
-/* there is a crazy man at metrotown
+
  Name: General Student
  Student Number: 033550336
  Course: CPSC1150        Section 7
