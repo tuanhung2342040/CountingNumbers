@@ -1,4 +1,8 @@
+
 /* 
+=======
+
+>>>>>>> 7c48d71b40eb9e9d26131ae6254c206eee4d2cbd
  Name: General Student
  Student Number: 033550336
  Course: CPSC1150        Section 7
