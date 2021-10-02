@@ -6,7 +6,7 @@
  Instructor: Vladimir Cheney
  Purpose: This program compute the total number of peas that a
           person has assuming that every peapod contains the same
-          number of peas, that is, 9. 1 thang dien
+          number of peas, that is, 9. 1 
           
  Input:   Number of peapods
  Output:  The total number of peas
@@ -25,7 +25,9 @@ public class CountingNumbers
     {
         printIdentification();
         //countPeapods();
-        simpleEcho();
+        //simpleEcho();
+        //complexEcho();
+        CountingNumbers();  
     }
          
     // runs the show!
@@ -57,28 +59,104 @@ public class CountingNumbers
     //========================================================
     private static void printIdentification()
     {
-        System.out.println("### Pea Pod Counter  Author: Jay Nguyen ###");
+        System.out.println("### Count Numbers  Author: Jay Nguyen ###");
         System.out.println("### Course/Section - CPSC1150-7    St.# - 100384022 ###\n");
         System.out.println(new java.util.Date());
     } //printIdentification
 
-    private static void simpleEcho(){
+   /* private static void simpleEcho(){
         final int ZERO_TARGET = 1;
         int numZeros;
         int value;
         numZeros = 0;
-        while(numZeros < ZERO_TARGET) do
+        while(numZeros < ZERO_TARGET) 
         {
             System.out.println("Please enter a number:");
                 value = keyboard.nextInt();
                 if(value == 0)
                     numZeros++;
                 System.out.println(value);
-        }
+        }   
+        System.out.println("End of program");
 
-        
-        
-    }
+    }*/
+       /* private static void complexEcho(){
+            final int ZERO_TARGET = 2;
+            int numZeros;
+            boolean isGoodInput;
+            int value;
+            numZeros = 0;
+            isGoodInput = true;
+            while(numZeros < ZERO_TARGET && isGoodInput ==true) 
+            {
+                System.out.println("Please enter a number:");
+                if(keyboard.hasNextInt())
+                {
+                    value = keyboard.nextInt();
+                    if(value == 0)
+                        numZeros++;
+                    System.out.println(value);
+                }
+                else
+                    isGoodInput =false;
+            }   
+            if(isGoodInput == false)
+                System.out.println("Program ended with illegal input");
+            System.out.println("End of program");
+            
+        }*/
+        private static void CountingNumbers(){
+            final int ZERO_TARGET = 2;
+            int numZeros;
+            int evenCount;
+            int oddCount;
+            int largest;
+            boolean firstTime;
+            boolean isGoodInput;
+            int value;
+            numZeros = 0;
+            evenCount = 0;
+            oddCount = 0;
+            largest = 0;
+            firstTime = true;
+            isGoodInput = true;
+            while(numZeros < ZERO_TARGET && isGoodInput ==true) 
+            {
+                System.out.println("Please enter a number:");
+                if(keyboard.hasNextInt())
+                {
+                    value = keyboard.nextInt();
+                    if(value == 0)
+                        numZeros++;
+                    if(value % 2 == 0)
+                        evenCount++;
+                    else    
+                        oddCount++;
+                    if(firstTime == true)
+                    {
+                        firstTime = false;
+                        largest = value;
+                    }
+                    else
+                    {
+                        if(largest < value)
+                            largest = value;
+                    }
+
+                }
+                else
+                    isGoodInput =false;
+            }   
+            if(isGoodInput == false)
+                System.out.println("Program ended with illegal input");
+            else
+            {
+                System.out.println("There are " + oddCount + " odd numbers were inputted");
+                System.out.println("There are " + evenCount + " even number were inputted");
+                System.out.println("The largest number is " + largest);
+            }
+            System.out.println("End of program");
+        }
 
 }
 
