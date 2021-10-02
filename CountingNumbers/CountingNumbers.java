@@ -1,4 +1,4 @@
-/* there is a crazy man at metrotown
+/* 
  Name: General Student
  Student Number: 033550336
  Course: CPSC1150        Section 7
@@ -24,7 +24,6 @@ public class CountingNumbers
     public static void main (String[] args)
     {
         printIdentification();
-        //countPeapods();
         //simpleEcho();
         //complexEcho();
         CountingNumbers();  
@@ -161,17 +160,17 @@ public class CountingNumbers
 }
 
 /*
-SAMPLE OUTPUT:
+OUTPUT:
 
->java PeaPodCounter
-### Pea Pod Counter  Author: General Student  ###
-### Course/Section - CPSC1150-7    St.# - 33550336 ###
+>java CountingNumbers
+### Count Numbers  Author: Jay Nguyen  ###
+### Course/Section - CPSC1150-7    St.# - 100384022 ###
 
 Mon Jan 31 18:14:08 PST 2005
-Enter the number of pods: 3
+Enter the number: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
 
-If you have 3 pea pods
-and 9 peas in each pod, then
-you have 27 peas in all the pods.
+There are 5 odd numbers
+There are 7 even numbers
+The largest number is 10
 
 */
