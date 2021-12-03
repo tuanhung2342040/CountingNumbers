@@ -39,7 +39,7 @@ public class MasterMind {
     }
     private static int[] getGuess(int[] guess)
     {
-        System.out.println("Enter your guess.......");
+        System .out.println("Enter your guess.......");
         int input = scanner.nextInt();
         while(isInvalidInput(input)){
             System.out.println("This is an invalid input, pls try again!");
@@ -101,9 +101,14 @@ public class MasterMind {
                     System.out.println("You have no right digits, pls try again");
                     wrongDigits++;
                 }
+                System.out.println("Total right digits: " + rightDigit);
+                System.out.println("Total right digits in different position: " + rightDigitButWrongPlace);
+                System.out.println("Total wrong: " + wrongDigits);
             }
             count++;
         }
+        if(count == 10)
+            System.out.println("You have no guesses left");
         System.out.println("You took " + totalGuesses + " guesses to find the correct answer");
     }
     private static void cheatMode(int[] secretNum)
@@ -125,8 +130,11 @@ public class MasterMind {
     {
         System.out.println("Welcome to MasterMind Game with Numbers");
         System.out.println("You have 10 guesses in tolal, and you have to guess at least two times");
-        System.out.println("If you guess a correct digit but in the wrong place, a '-' will appear. If you guess a number in its right place, a '+' will appear");
+        System.out.println("If you guess a correct digit but in the wrong place, the program will print a message.");
+        System.out.println("If you guess a number in its right place, the program will print a message");
         System.out.println("Good luck!! and Have fun!!!");
+        System.out.println("Let's get started!");
+        System.out.println("You can only enter values from 10 to 99");
     }
 
 
