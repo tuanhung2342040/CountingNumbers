@@ -13,12 +13,21 @@ public class MasterMind {
         compareTwoNumbers(secretNum, guess);
 
     }
+    /**
+     * get a random number from 10 to 99
+     * @return a random num for computer
+     */
     private static int randomNum()
     {
         double random = (Math.random()*90) + 10;
         int randomInt = (int)random;
         return randomInt;
     }
+    /**
+     * get a random and store it into an integer array
+     * @param secretNum  the array that contains the random number
+     * @return array that contains the random number
+     */
     private static int[] getARandomNumber(int[] secretNum)
     {
         int num;
@@ -31,12 +40,22 @@ public class MasterMind {
         }
         return secretNum;
     }
+    /**
+     * to check if the user inputs the valid number or not
+     * @param guess the number that user enters
+     * @return false if the user chooses from 10 to 99, otherwise true
+     */
     private static boolean isInvalidInput(int guess)
     {
         if(guess >= 10 && guess <100)
             return false;
         return true;
     }
+    /**
+     * get the input of the user
+     * @param guess the array that contains user's input
+     * @return the array that contains the number
+     */
     private static int[] getGuess(int[] guess)
     {
         System .out.println("Enter your guess.......");
@@ -56,18 +75,34 @@ public class MasterMind {
         return guess;
 
     }
+    /**
+     * check if two digits are unique or not
+     * @param secretNum the array that contains the secret number
+     * @return  true if the two digits are unique, otherwise false
+     */
     private static boolean uniqueDigits(int[] secretNum)
     {
         if(secretNum[0] == secretNum[1])
             return false;
         return true;
     }
+    /**
+     * check if the user's guess is correct or not
+     * @param secretNum the array that contains the secret number
+     * @param guess the array that contains the user's guess
+     * @return true if the user's guess is correct, otherwise false
+     */
     private static boolean checkIfEqual(int[] secretNum, int[] guess)
     {
         if(Arrays.equals(secretNum, guess))
             return true;
         return false;
     }
+    /**
+     * compare the two numbers and print the result
+     * @param secretNum the array that contains the secret number
+     * @param guess the array that contains the user's guess
+     */
     private static void compareTwoNumbers(int[] secretNum, int[] guess)
     {
         int count = 0;
@@ -111,6 +146,11 @@ public class MasterMind {
             System.out.println("You have no guesses left");
         System.out.println("You took " + totalGuesses + " guesses to find the correct answer");
     }
+    /**
+     * if the user chooses cheat mode, the computer will print the secret number
+     * if the user doesn't choose cheat mode, the computer will not print the secret number
+     * @param secretNum the array that contains the secret number
+     */
     private static void cheatMode(int[] secretNum)
     {
         if(isCheatModeOn()){
@@ -118,6 +158,10 @@ public class MasterMind {
             System.out.println(Arrays.toString(secretNum));
         }
     }
+    /**
+     * check if the user wants to use cheat mode or not
+     * @return  true if the user wants to use cheat mode, otherwise false
+     */
     private static boolean isCheatModeOn()
     {
         System.out.println("Press Y if you wan to get help, other keys if you don't need help");
@@ -126,6 +170,9 @@ public class MasterMind {
             return true;
         return false; 
     }
+    /**
+     * print the instructions
+     */
     private static void printInstructions()
     {
         System.out.println("Welcome to MasterMind Game with Numbers");
