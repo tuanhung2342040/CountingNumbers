@@ -2,8 +2,6 @@ import java.util.Arrays;
 import java.util.Scanner;
 
 public class MasterMind {
-    static int totalGuesses = 0;
-    static boolean cheatMode = false;
     static Scanner scanner = new Scanner(System.in);
     public static void main(String[] args) throws Exception {
         printInstructions();
@@ -45,10 +43,11 @@ public class MasterMind {
      * @param guess the number that user enters
      * @return false if the user chooses from 10 to 99, otherwise true
      */
-    private static boolean isInvalidInput(int guess)
+    private static boolean isInvalidInput(int num, int[] guess)
     {
-        if(guess >= 10 && guess <100)
+        if(num >= 10 && num < 100 ){
             return false;
+        }
         return true;
     }
     /**
@@ -60,9 +59,9 @@ public class MasterMind {
     {
         System .out.println("Enter your guess.......");
         int input = scanner.nextInt();
-        while(isInvalidInput(input)){
+        while(isInvalidInput(input, guess)){
             System.out.println("This is an invalid input, pls try again!");
-            System.out.println("Pls enter the right number is from 10 to 99");
+            System.out.println("Pls notice that the right number is from 10 to 99, and two digits must be unique");
             input = scanner.nextInt();  
         }
         for(int i = guess.length-1; i >=0; i--)
@@ -77,12 +76,12 @@ public class MasterMind {
     }
     /**
      * check if two digits are unique or not
-     * @param secretNum the array that contains the secret number
+     * @param num the array that contains the secret number
      * @return  true if the two digits are unique, otherwise false
      */
-    private static boolean uniqueDigits(int[] secretNum)
+    private static boolean isUniqueDigits(int[] num)
     {
-        if(secretNum[0] == secretNum[1])
+        if(num[0] == num[1])
             return false;
         return true;
     }
@@ -106,45 +105,65 @@ public class MasterMind {
     private static void compareTwoNumbers(int[] secretNum, int[] guess)
     {
         int count = 0;
+        int totalGuesses = 0;
         while (count < 10 && secretNum != guess )
         {
+            if(count == 3 || count == 4 || count == 5 || count == 6 || 
+            count == 7)
+            {
+                cheatMode(secretNum);
+            }
+            if(count == 8 || count == 9)
+            {
+                cheatMode1(secretNum);
+            }
             getGuess(guess);
             totalGuesses++;
-            cheatMode(secretNum);
             if(checkIfEqual(secretNum, guess))
             {
-                System.out.println("Your guess is correct");
+                System.out.print("Your guess is correct. ");
+                printAnswer(secretNum);
                 break;
             }
             else
             {
-                int wrongDigits = 0;
                 int rightDigitButWrongPlace = 0;
                 int rightDigit = 0;
                 if(guess[0] == secretNum[0] || guess[1] == secretNum[1])
                 {
-                    System.out.println("You have one right digit");
+                    System.out.println("You have one correct digit");
                     rightDigit++;
                 }
-                else if(guess[0] == secretNum[1] || guess[1] == secretNum[0])
+                if(guess[0] == secretNum[1])
                 {
-                    System.out.println("You have one right digit, but it is in different position");
+                    System.out.println("You have one correct digit, but it is in different position");
+                    rightDigitButWrongPlace++;
+                }
+                else if(guess[1] == secretNum[0])
+                {
+                    System.out.println("You have one correcy digit, but it is in different position");
                     rightDigitButWrongPlace++;
                 }
                 else
                 {
-                    System.out.println("You have no right digits, pls try again");
-                    wrongDigits++;
+                    System.out.println("You have no correct digits, pls try again");
                 }
-                System.out.println("Total right digits: " + rightDigit);
-                System.out.println("Total right digits in different position: " + rightDigitButWrongPlace);
-                System.out.println("Total wrong: " + wrongDigits);
+                System.out.println("Total right digits in wright place: " + rightDigit);
+                System.out.println("Total correct digits in wrong place: " + rightDigitButWrongPlace);
             }
             count++;
         }
         if(count == 10)
+        {
             System.out.println("You have no guesses left");
-        System.out.println("You took " + totalGuesses + " guesses to find the correct answer");
+            System.out.println("You took " + totalGuesses + " guesses");
+            System.out.println("And you could not find the correct number");
+            printAnswer(secretNum);
+        }
+        else
+        {
+            System.out.println("You took " + totalGuesses + " guesses to find the correct answer");
+        }
     }
     /**
      * if the user chooses cheat mode, the computer will print the secret number
@@ -153,9 +172,21 @@ public class MasterMind {
      */
     private static void cheatMode(int[] secretNum)
     {
-        if(isCheatModeOn()){
-            System.out.println("The number you are looking for is ");
-            System.out.println(Arrays.toString(secretNum));
+        if(isCheatModeOn() )
+        {
+            System.out.print("The sum of the number that you are looking for is ");
+            System.out.println(secretNum[0] + secretNum[1]);
+        }   
+    }
+    private static void cheatMode1(int[] secretNum)
+    {
+        if (isCheatModeOn() )
+        {
+            System.out.print("The sum of the number that you are looking for is ");
+            System.out.println(secretNum[0] + secretNum[1]);
+            System.out.println("Another hint is ");
+            System.out.print("The difference of the number is ");
+            System.out.println(Math.abs((int)(secretNum[0] - secretNum[1])));
         }
     }
     /**
@@ -177,11 +208,23 @@ public class MasterMind {
     {
         System.out.println("Welcome to MasterMind Game with Numbers");
         System.out.println("You have 10 guesses in tolal, and you have to guess at least two times");
+        System.out.println("You can only enter values from 10 to 99. The number contains two digits, and two digits must be different");
         System.out.println("If you guess a correct digit but in the wrong place, the program will print a message.");
         System.out.println("If you guess a number in its right place, the program will print a message");
         System.out.println("Good luck!! and Have fun!!!");
         System.out.println("Let's get started!");
-        System.out.println("You can only enter values from 10 to 99");
+    }
+    /**
+     * print the correct answer
+     */
+    private static void printAnswer(int[] secretNum)
+    {
+        String answer = "";
+        for(int i = 0; i < secretNum.length;i++)
+        {
+            answer += secretNum[i];
+        }
+        System.out.println("The correct answer is " + answer);
     }
 
 
