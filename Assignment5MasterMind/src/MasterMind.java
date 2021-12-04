@@ -1,4 +1,12 @@
-import java.util.Arrays;
+
+/** 
+ * Name: Jay Nguyen           Student Number: 100384022
+ * Course/Section: CPSC 1150-#   
+ * Instructor: Bryan Green             Date:           Nov, 25, 2021
+ * Assignment/Lab: 5            Last Modified: N   Dec, 03, 2021  
+ * Purpose: create a game of MasterMind with numbers. The user tries to guess
+ * the correct combination of numbers.
+*/import java.util.Arrays;
 import java.util.Scanner;
 
 public class MasterMind {
@@ -9,8 +17,14 @@ public class MasterMind {
         getARandomNumber(secretNum);
         int[] guess = new int[2];
         compareTwoNumbers(secretNum, guess);
-
     }
+    private static void printIdentification()
+    {
+        System.out.println("### Assignment 5: MasterMind Game   Author: Jay Nguyen ###");
+        System.out.println("### Course/Section - CPSC1150-003 ###");
+        System.out.println("### St.# - 100384022 ###\n");
+        System.out.println();
+    } // printIdentification
     /**
      * get a random number from 10 to 99
      * @return a random num for computer
@@ -141,7 +155,7 @@ public class MasterMind {
                 }
                 else if(guess[1] == secretNum[0])
                 {
-                    System.out.println("You have one correcy digit, but it is in different position");
+                    System.out.println("You have one correct digit, but it is in different position");
                     rightDigitButWrongPlace++;
                 }
                 else
@@ -195,7 +209,7 @@ public class MasterMind {
      */
     private static boolean isCheatModeOn()
     {
-        System.out.println("Press Y if you wan to get help, other keys if you don't need help");
+        System.out.println("Press Y if you want to get help, other keys if you don't need help");
         char support = scanner.next().charAt(0);
         if(support == 'Y' || support == 'y')
             return true;
@@ -207,12 +221,13 @@ public class MasterMind {
     private static void printInstructions()
     {
         System.out.println("Welcome to MasterMind Game with Numbers");
-        System.out.println("You have 10 guesses in tolal, and you have to guess at least two times");
+        System.out.println("You have 10 guesses in total, and you have to guess at least two times");
         System.out.println("You can only enter values from 10 to 99. The number contains two digits, and two digits must be different");
         System.out.println("If you guess a correct digit but in the wrong place, the program will print a message.");
         System.out.println("If you guess a number in its right place, the program will print a message");
         System.out.println("Good luck!! and Have fun!!!");
         System.out.println("Let's get started!");
+        System.out.println();
     }
     /**
      * print the correct answer
