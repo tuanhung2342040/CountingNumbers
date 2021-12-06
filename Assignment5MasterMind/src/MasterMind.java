@@ -192,6 +192,11 @@ public class MasterMind {
             System.out.println(secretNum[0] + secretNum[1]);
         }   
     }
+    /**
+     * if the user chooses cheat mode, the computer will print the secret number
+     * if the user doesn't choose cheat mode, the computer will not print the secret number
+     * @param secretNum the array that contains the secret number
+     */
     private static void cheatMode1(int[] secretNum)
     {
         if (isCheatModeOn() )
@@ -240,8 +245,5 @@ public class MasterMind {
             answer += secretNum[i];
         }
         System.out.println("The correct answer is " + answer);
-    }
-
-
-     
+    } 
 }
