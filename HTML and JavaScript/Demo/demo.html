@@ -1,49 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8"> 
-    <meta name="description" content="This is amazing">
-    <title>Website</title>
+    <meta charset="UTF-8">
+    <title>Lab4_1</title>
+    <style>
+        body {
+            text-align: center;
+        }
+
+        #griddiv {
+            display: grid;
+            margin: auto;
+            width: 50%;
+            height: 500px;
+            grid-template-columns: auto auto;
+        }
+
+        div div {
+            border: 1px solid black;
+        }
+    </style>
+    <script src="lab4_1_2.js" defer></script>
 </head>
+
 <body>
-    <ul>
-        <li>Apples</li>
-        <li>Oranges</li>
-        <li>Banana</li>
-        <li>Banana</li>
-    </ul>
-    <ol type="A">
-        <li>Apples</li>
-        <li>Bananas</li>
-    </ol>
-    <dl>
-        <dt>Apples</dt>
-        <dd>- They are red</dd>
-    </dl>
-    <hr>
-    <table> 
-        <caption><h2>List of Numbers</h2></caption>
-        <thead>
-            <tr>
-                <th>Table 1</th>
-                <th>Table 2</th>
-                <th>Table 3</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td colspan="2">one</td>
-                <td>two</td>
-                <td>three</td>
-            </tr>
-            <tr>
-                <td>four</td>
-                <td>five</td>
-                <td>six</td>
-            </tr>
-        </tbody>
-        
-    </table>
-    
+    <h1>Lab4_1</h1>
+    <p>You will use event handling to make the following grid interactive.</p>
+    <div id="griddiv">
+        <div id="div1"></div>
+        <div id="div2"></div>
+        <div id="div3"></div>
+        <div id="div4"></div>
+    </div>
 </body>
-</html> 
+</html>

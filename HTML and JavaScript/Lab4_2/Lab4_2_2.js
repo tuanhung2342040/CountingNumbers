@@ -1,0 +1,1 @@
+// Register events by adding event listeners and make functions to handle the events here

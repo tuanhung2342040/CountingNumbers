@@ -26,7 +26,8 @@ console.log(shortenString(randomString));
 console.log(false > 0);
 console.log(!false > 0);
 console.log(true > 0);
-
+let b1 = document.getElementById('buttonresetcolor');
+b1.onclick = resetColor;
 
 
 
