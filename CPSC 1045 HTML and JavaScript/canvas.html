@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <canvas id="myCanvas" width="300" height="150" 
+    style="border:1px solid black;">
+    </canvas>
+</body>
+<script>
+    let c = document.getElementById('myCanvas');
+    let ctx = c.getContext('2d'); // a two-dimensional rendering context.
+    ctx.save();
+    /*ctx.beginPath();
+    ctx.moveTo(20, 20);
+    ctx.lineTo(20, 140);
+    ctx.lineTo(70, 140);
+    ctx.lineTo(20, 20);
+    ctx.moveTo(200, 20);
+    ctx.lineTo(200, 140);
+    ctx.lineTo(250, 140);
+    ctx.lineTo(200, 20);
+    ctx.fillStyle = 'red';
+    ctx.fill();
+    ctx.beginPath()
+    ctx.rect(80, 20, 50, 30);
+    ctx.fillStyle = 'yellow';
+    ctx.fill();
+    ctx.beginPath();
+    ctx.arc(100, 100, 30, 0, 2 * Math.PI)
+    ctx.fillStyle = 'purple';
+    ctx.strokeStyle = 'blue';
+    ctx.fill();
+    ctx.beginPath();
+    ctx.translate(60,60);
+    ctx.beginPath();
+    ctx.lineTo(30, 0);
+    for(let i = 0; i <= 5; i++){
+        ctx.rotate(Math.PI/3);
+        ctx.lineTo(30,0);
+    }*/ctx.beginPath();
+    ctx.lineWidth = "10";
+    ctx.strokeStyle = "blue";
+    ctx.rect(50, 50, 150, 80);
+    ctx.restore();
+
+
+
+    ctx.stroke();
+    
+    
+    /*ctx.arc(100, 80, 50, 0, 2 * Math.PI);
+    ctx.fillStyle = "blue";
+    ctx.fill();
+    ctx.beginPath();
+    ctx.arc(100, 80, 30, 0, 2 * Math.PI);
+    ctx.fillStyle = "red";
+    ctx.fill();
+    ctx.beginPath();
+    ctx.arc(100, 80, 10, 0, 2 * Math.PI);
+    ctx.fillStyle = "yellow";*/
+
+    
+
+    
+</script>
+</html>

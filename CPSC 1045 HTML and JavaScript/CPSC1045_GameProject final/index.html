@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game</title>
+    <script src="project.js" defer></script>
+    <style>
+        .background-canvas {
+            background-image: url(background2.jpg);
+        }
+        .background-image {
+            background-image: url(background1.jpg) ;
+        }
+    </style>
+</head>
+<body class="background-image">
+    <h1>Shooting balls</h1>
+    <div class="fixed">
+        <span> Score: </span><span id="score" > 0 </span>
+        <br>
+        <span> Lives: </span><span id="lives" > 5 </span>
+    </div>
+    <canvas id="myCanvas" width="600" height="400" 
+    style="border: 1px solid black;" class="background-canvas"></canvas>
+    
+    <br>
+    <div>
+        <input type="button" value="Start Game" id="button1"> 
+        <input type="button" value="Level 1" id="lv1"> 
+        <input type="button" value="Level 2" id="lv2"> 
+        <input type="button" value="Level 3" id="lv3"> 
+        <input type="button" value="Level 4" id="lv4"> 
+    </div>
+    <h2>Information about the game</h2>
+    <div>
+        <p> - The number of balls of each level is different.</p>
+        <p> - Also, they have different speeds.</p>
+        <p> - Each dot is worth 100 points</p>
+    </div>
+    <h2>How to play</h2>
+    <div>
+        <p> - Choose what level you want to play.</p>
+        <p> - Click on the "Start Game" button to start the game.</p>
+        <p> - You are ready to go.</p>
+        <p> - After you kill all of them, you can choose other levels to continue playing.</p>
+    </div>
+    
+</body>
+
+</html>
