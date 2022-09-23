@@ -1,0 +1,20 @@
+body {
+    color: #000;
+    background-color: yellow;
+}
+header > h1 {
+    background-color: #e2ffff;
+    color: #15495e;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+main > p {
+    font-size: 1em;
+    text-indent: 3em;
+}
+main > div > h2 {
+    background-color: #e2ffff;
+    font-family: fantasy;
+    font-size: 1em;
+    
+}

@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="VScode">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/SinglyLinked.zip!/" />
+      <root url="jar://$PROJECT_DIR$/_Final_Project_ 1045.zip!/" />
+      <root url="jar://$PROJECT_DIR$/Midterm1.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

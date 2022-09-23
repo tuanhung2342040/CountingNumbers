@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/CPSC 1150 Java/Assignment4/Assignment4.iml" filepath="$PROJECT_DIR$/CPSC 1150 Java/Assignment4/Assignment4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CPSC 1150 Java/Assignment5MasterMind/Assignment5MasterMind.iml" filepath="$PROJECT_DIR$/CPSC 1150 Java/Assignment5MasterMind/Assignment5MasterMind.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CPSC 1150 Java/BallVolume/BallVolume.iml" filepath="$PROJECT_DIR$/CPSC 1150 Java/BallVolume/BallVolume.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CPSC 1150 Java/CPSC 1150 Java.iml" filepath="$PROJECT_DIR$/CPSC 1150 Java/CPSC 1150 Java.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CPSC 1160 Algorithms and Data Structure/CPSC 1160 Algorithms and Data Structure.iml" filepath="$PROJECT_DIR$/CPSC 1160 Algorithms and Data Structure/CPSC 1160 Algorithms and Data Structure.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CPSC 1150 Java/CountDitgits/CountDitgits.iml" filepath="$PROJECT_DIR$/CPSC 1150 Java/CountDitgits/CountDitgits.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CPSC 1150 Java/Extract/Extract.iml" filepath="$PROJECT_DIR$/CPSC 1150 Java/Extract/Extract.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CPSC 1150 Java/FileInputOutput/FileInputOutput.iml" filepath="$PROJECT_DIR$/CPSC 1150 Java/FileInputOutput/FileInputOutput.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java_Knowledge/Java_Knowledge.iml" filepath="$PROJECT_DIR$/Java_Knowledge/Java_Knowledge.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CPSC 1150 Java/Lab10BatchingTesting/Lab10BatchingTesting.iml" filepath="$PROJECT_DIR$/CPSC 1150 Java/Lab10BatchingTesting/Lab10BatchingTesting.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CPSC 1150 Java/Lab11TicTacToe/Lab11TicTacToe.iml" filepath="$PROJECT_DIR$/CPSC 1150 Java/Lab11TicTacToe/Lab11TicTacToe.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CPSC 1150 Java/Lab5/Lab5.iml" filepath="$PROJECT_DIR$/CPSC 1150 Java/Lab5/Lab5.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CPSC 1150 Java/Lab7 RLE Testing/Lab7 RLE Testing.iml" filepath="$PROJECT_DIR$/CPSC 1150 Java/Lab7 RLE Testing/Lab7 RLE Testing.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CPSC 1150 Java/Lab9SearchingAndSorting/Lab9SearchingAndSorting.iml" filepath="$PROJECT_DIR$/CPSC 1150 Java/Lab9SearchingAndSorting/Lab9SearchingAndSorting.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CPSC 1150 Java/LabNumber5/LabNumber5.iml" filepath="$PROJECT_DIR$/CPSC 1150 Java/LabNumber5/LabNumber5.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CPSC 1150 Java/LabNumber8/LabNumber8.iml" filepath="$PROJECT_DIR$/CPSC 1150 Java/LabNumber8/LabNumber8.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CPSC 1150 Java/LargestNumOf3/LargestNumOf3.iml" filepath="$PROJECT_DIR$/CPSC 1150 Java/LargestNumOf3/LargestNumOf3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CPSC 1150 Java/Menu/Menu.iml" filepath="$PROJECT_DIR$/CPSC 1150 Java/Menu/Menu.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CPSC 1150 Java/MidTerm1Exercise/MidTerm1Exercise.iml" filepath="$PROJECT_DIR$/CPSC 1150 Java/MidTerm1Exercise/MidTerm1Exercise.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CPSC 1150 Java/MidTermSolution/MidTermSolution.iml" filepath="$PROJECT_DIR$/CPSC 1150 Java/MidTermSolution/MidTermSolution.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CPSC 1150 Java/Midterm2Review/Midterm2Review.iml" filepath="$PROJECT_DIR$/CPSC 1150 Java/Midterm2Review/Midterm2Review.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CPSC 1150 Java/MonthlyCalendar/MonthlyCalendar.iml" filepath="$PROJECT_DIR$/CPSC 1150 Java/MonthlyCalendar/MonthlyCalendar.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CPSC 1150 Java/Pseudo/Pseudo.iml" filepath="$PROJECT_DIR$/CPSC 1150 Java/Pseudo/Pseudo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CPSC 1150 Java/Recursion/Recursion.iml" filepath="$PROJECT_DIR$/CPSC 1150 Java/Recursion/Recursion.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaPractice/RomanToInteger/RomanToInteger.iml" filepath="$PROJECT_DIR$/JavaPractice/RomanToInteger/RomanToInteger.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CPSC 1150 Java/StarryNumAndNumCrunching/StarryNumAndNumCrunching.iml" filepath="$PROJECT_DIR$/CPSC 1150 Java/StarryNumAndNumCrunching/StarryNumAndNumCrunching.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CPSC 1150 Java/TTT/TTT.iml" filepath="$PROJECT_DIR$/CPSC 1150 Java/TTT/TTT.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CPSC 1150 Java/Tic-Tac-ToeLab11/Tic-Tac-ToeLab11.iml" filepath="$PROJECT_DIR$/CPSC 1150 Java/Tic-Tac-ToeLab11/Tic-Tac-ToeLab11.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CPSC 1150 Java/TicTacToe/TicTacToe.iml" filepath="$PROJECT_DIR$/CPSC 1150 Java/TicTacToe/TicTacToe.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaPractice/TwoSums/TwoSums.iml" filepath="$PROJECT_DIR$/JavaPractice/TwoSums/TwoSums.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/VScode.iml" filepath="$PROJECT_DIR$/.idea/VScode.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaPractice/ValidParentheses/ValidParentheses.iml" filepath="$PROJECT_DIR$/JavaPractice/ValidParentheses/ValidParentheses.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CPSC 1150 Java/averageTamperature/averageTamperature.iml" filepath="$PROJECT_DIR$/CPSC 1150 Java/averageTamperature/averageTamperature.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CPSC 1150 Java/getInput/getInput.iml" filepath="$PROJECT_DIR$/CPSC 1150 Java/getInput/getInput.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CPSC 1150 Java/midterm2/midterm2.iml" filepath="$PROJECT_DIR$/CPSC 1150 Java/midterm2/midterm2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CPSC 1150 Java/naturalAlgorithm/naturalAlgorithm.iml" filepath="$PROJECT_DIR$/CPSC 1150 Java/naturalAlgorithm/naturalAlgorithm.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CPSC 1150 Java/soundexCoding/soundexCoding.iml" filepath="$PROJECT_DIR$/CPSC 1150 Java/soundexCoding/soundexCoding.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CPSC 1150 Java/testSoundex/testSoundex.iml" filepath="$PROJECT_DIR$/CPSC 1150 Java/testSoundex/testSoundex.iml" />
+    </modules>
+  </component>
+</project>
