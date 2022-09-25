@@ -1,7 +1,5 @@
 import java.util.ArrayList;
 
-import javafx.scene.paint.Stop;
-
 public class Course {
    private ArrayList<Student> students; 
    
@@ -22,6 +20,9 @@ public class Course {
       return null;
    }
    public Student deleteStudent(long studentNumber){
+      if(students.isEmpty()){
+         return null;
+      }
       for(Student s : students){
          if(s.getStudentNumber() == studentNumber){
             students.remove(s);
@@ -31,6 +32,10 @@ public class Course {
       return null;
    }
    public boolean addQuiz(long studentNumber, double maxGrade, double studentGrade){
+      if(maxGrade <= 0 || studentGrade < 0 || studentNumber < 10000001 || 
+             maxGrade < studentGrade){
+         return false;
+      }
       for(Student s : students){
          if(s.getStudentNumber() == studentNumber){
             s.addQuiz(maxGrade, studentGrade);
@@ -58,6 +63,11 @@ public class Course {
          sum += s.getQuizAverage();
       }
       return sum/length;
+   }
+   public void printStudentNumbers(){
+      for(Student s : students){
+         System.out.println(s.getStudentNumber());
+      }
    }
 
 }

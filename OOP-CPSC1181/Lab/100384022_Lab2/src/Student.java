@@ -5,8 +5,8 @@ public class Student {
     private String surname;
     private long studentNumber;
     private String loginId;
-    private ArrayList<Quiz> quiz;
-    private static long getStudentNumber = 10000001L;
+    private ArrayList<Quiz> quizzes;
+    private static long generateStudentNumber = 10000001L;
 
     /**
      * This constructs a student with first name, surname, student number
@@ -18,7 +18,7 @@ public class Student {
     public Student(String name, String surname){
         this.name = name;
         this.surname = surname;
-        this.studentNumber++;
+        this.studentNumber = generateStudentNumber++;
         this.loginId = generateLoginId();
 
     } 
@@ -99,8 +99,11 @@ public class Student {
      * @param quiz the grade of the quiz
      */
     public void addQuiz(double maxGrade, double studentGrade) {
-        quiz.addQuiz(maxGrade, studentGrade);
-
+        if(quizzes == null){
+            quizzes = new ArrayList<>();
+        }
+        Quiz newQuiz = new Quiz(maxGrade, studentGrade);
+        quizzes.add(newQuiz);
     }
 
     /**
@@ -109,13 +112,12 @@ public class Student {
      * @return the average grade of the quiz
      */
     public double getQuizAverage() {
-        int length = quiz.size();
+        int length = quizzes.size();
         double sum = 0;
-        for(Quiz q : quiz){
-            sum += q.getAverage();
+        for(Quiz q : quizzes){
+            sum += q.getStudentGrade();
         }
-        sum /= length;
-        return sum;
+        return sum /= length;
     }
 
     /**
@@ -123,8 +125,8 @@ public class Student {
      */
     @Override
     public String toString() {
-        return "[name: " + name + ", surname:" + surname +  
-            "(StudentNumber :" + studentNumber + ", loginId:" + loginId + ")]";
+        return "[name:" + name + ", surname:" + surname +  
+            "(StudentNumber:" + studentNumber + ", loginId:" + loginId + ")]";
     }
 
 }
