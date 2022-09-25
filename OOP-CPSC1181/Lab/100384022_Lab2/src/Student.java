@@ -1,12 +1,12 @@
-import java.util.Stack;
+import java.util.ArrayList;
 
 public class Student {
     private String name;
     private String surname;
-    private final long studentNumber;
-    private final String loginId;
-    private double quizAverage;
-    private Stack<Double> grades;
+    private long studentNumber;
+    private String loginId;
+    private ArrayList<Quiz> quiz;
+    private static long getStudentNumber = 10000001L;
 
     /**
      * This constructs a student with first name, surname, student number
@@ -18,8 +18,9 @@ public class Student {
     public Student(String name, String surname){
         this.name = name;
         this.surname = surname;
-        this.studentNumber = 3423;
+        this.studentNumber++;
         this.loginId = generateLoginId();
+
     } 
 
     /**
@@ -98,7 +99,7 @@ public class Student {
      * @param quiz the grade of the quiz
      */
     public void addQuiz(double maxGrade, double studentGrade) {
-        grades.push(studentGrade);
+        quiz.addQuiz(maxGrade, studentGrade);
 
     }
 
@@ -108,12 +109,13 @@ public class Student {
      * @return the average grade of the quiz
      */
     public double getQuizAverage() {
-        int length = grades.size();
-        while (!grades.isEmpty()) {
-            quizAverage += grades.pop();
+        int length = quiz.size();
+        double sum = 0;
+        for(Quiz q : quiz){
+            sum += q.getAverage();
         }
-        quizAverage /= length;
-        return quizAverage;
+        sum /= length;
+        return sum;
     }
 
     /**
