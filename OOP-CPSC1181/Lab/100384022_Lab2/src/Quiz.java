@@ -10,7 +10,7 @@ public class Quiz {
         this.maxGrade = maxGrade;
         this.studentGrade = studentGrade;
     }
-    public double getStudentGrade(){
-        return studentGrade;
+    public double getAverage(){
+        return studentGrade/maxGrade*100;
     }
 }

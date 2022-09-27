@@ -5,6 +5,8 @@ public class CourseTester {
         course.addStudent("Hung", "Nguyen");
         course.addStudent("Pham", "Tran");
 
+        System.out.println(course);
+
        course.addQuiz(10000001, 10, 5);
        course.addQuiz(10000001, 10, 7);
 
@@ -16,6 +18,9 @@ public class CourseTester {
 
        course.printStudentNumbers();
        System.out.println(course.findStudent(10000002));
+       System.out.println(course.findStudent(1000000));
+    
+
        System.out.println(course.findTopStudent());
        
        System.out.println(course.addQuiz(50000, 10, 7));        

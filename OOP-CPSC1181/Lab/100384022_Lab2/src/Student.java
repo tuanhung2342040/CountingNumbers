@@ -1,5 +1,4 @@
 import java.util.ArrayList;
-
 public class Student {
     private String name;
     private String surname;
@@ -22,36 +21,6 @@ public class Student {
         this.loginId = generateLoginId();
 
     } 
-
-    /**
-     * Sets student's name and surname to a new name
-     * 
-     * @param firstName the new first name of the student
-     * @param surName   the new surname of the student
-     */
-    public void setName(String name, String surname) {
-        this.name = name;
-        this.surname = surname;
-    }
-
-    /**
-     * Return the full name of the student
-     * 
-     * @return full name of the student
-     */
-    public String getName() {
-        return name + " " + surname;
-    }
-
-    /**
-     * Returns the student of number
-     * 
-     * @return the student number
-     */
-    public long getStudentNumber() {
-        return studentNumber;
-    }
-
     /**
      * Returns loginId for student based on a certain format.
      * 
@@ -75,8 +44,37 @@ public class Student {
     }
 
     /**
-     * Returns the login id of the student
+     * Sets student's name and surname to a new name
      * 
+     * @param firstName the new first name of the student
+     * @param surName   the new surname of the student
+     */
+    public void setName(String name, String surname) {
+        this.name = name;
+        this.surname = surname;
+    }
+
+    /**
+     * Return the full name of the student
+     * 
+     * @return full name of the student
+     */
+    public String getName() {
+        return name + " " + surname;
+    }
+
+    /**
+     * Returns the student of number
+     * @return the student number
+     */
+    public long getStudentNumber() {
+        return studentNumber;
+    }
+
+ 
+
+    /**
+     * Returns the login id of the student
      * @return loginId
      */
     public String getLoginId() {
@@ -86,7 +84,6 @@ public class Student {
     /**
      * Returns information of the student based on first name, surname, loginId, and
      * studentNumber of the student
-     * 
      * @return the information of the student
      */
     public String getInfo() {
@@ -95,7 +92,6 @@ public class Student {
 
     /**
      * Adds quiz's grades of the student
-     * 
      * @param quiz the grade of the quiz
      */
     public void addQuiz(double maxGrade, double studentGrade) {
@@ -108,16 +104,15 @@ public class Student {
 
     /**
      * This returns the average grade of the quiz that the student gets
-     * 
      * @return the average grade of the quiz
      */
     public double getQuizAverage() {
-        int length = quizzes.size();
+        double length = quizzes.size();
         double sum = 0;
         for(Quiz q : quizzes){
-            sum += q.getStudentGrade();
+            sum += q.getAverage();
         }
-        return sum /= length;
+        return Math.round(sum / length * 100.0)/100.0;
     }
 
     /**
