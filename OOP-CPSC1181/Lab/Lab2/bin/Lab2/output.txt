@@ -1,0 +1,354 @@
+
+Course directory commands:
+1. add a new Student
+2. find Student
+3. delete Student
+4. add quiz
+5. find student with the highest quiz score 
+6. get course average 
+7. quit 
+select option: 1
+Add a new Student: 
+student's name: gary
+student's surname: zagreb
+student added: gary, zagreb (10000001, gzagr01)
+
+Course directory commands:
+1. add a new Student
+2. find Student
+3. delete Student
+4. add quiz
+5. find student with the highest quiz score 
+6. get course average 
+7. quit 
+select option: 1
+Add a new Student: 
+student's name: Mark
+student's surname: Zacharias
+student added: Mark, Zacharias (10000002, mzach02)
+
+Course directory commands:
+1. add a new Student
+2. find Student
+3. delete Student
+4. add quiz
+5. find student with the highest quiz score 
+6. get course average 
+7. quit 
+select option: 1
+Add a new Student: 
+student's name: leon
+student's surname: bard
+student added: leon, bard (10000003, lbard03)
+
+Course directory commands:
+1. add a new Student
+2. find Student
+3. delete Student
+4. add quiz
+5. find student with the highest quiz score 
+6. get course average 
+7. quit 
+select option: 1
+Add a new Student: 
+student's name: peter
+student's surname: backer
+student added: peter, backer (10000004, pback04)
+
+Course directory commands:
+1. add a new Student
+2. find Student
+3. delete Student
+4. add quiz
+5. find student with the highest quiz score 
+6. get course average 
+7. quit 
+select option: 2
+Find student:
+student's number(id): 10000340
+student not found! 
+
+Course directory commands:
+1. add a new Student
+2. find Student
+3. delete Student
+4. add quiz
+5. find student with the highest quiz score 
+6. get course average 
+7. quit 
+select option: 2
+Find student:
+student's number(id): 10000002
+Mark, Zacharias (10000002, mzach02)
+
+Course directory commands:
+1. add a new Student
+2. find Student
+3. delete Student
+4. add quiz
+5. find student with the highest quiz score 
+6. get course average 
+7. quit 
+select option: 3
+Delete student:
+student's number(id): 10003454
+student not found! 
+
+Course directory commands:
+1. add a new Student
+2. find Student
+3. delete Student
+4. add quiz
+5. find student with the highest quiz score 
+6. get course average 
+7. quit 
+select option: 3
+Delete student:
+student's number(id): 10000002
+Mark, Zacharias (10000002, mzach02)
+
+Course directory commands:
+1. add a new Student
+2. find Student
+3. delete Student
+4. add quiz
+5. find student with the highest quiz score 
+6. get course average 
+7. quit 
+select option: 4
+Add quiz:
+student's number(id): 10000244
+quiz scale: 12.0
+student's grade: 8.0
+student not found!
+
+Course directory commands:
+1. add a new Student
+2. find Student
+3. delete Student
+4. add quiz
+5. find student with the highest quiz score 
+6. get course average 
+7. quit 
+select option: 4
+Add quiz:
+student's number(id): 10000001
+quiz scale: 12.0
+student's grade: 8.5
+Quiz added
+
+Course directory commands:
+1. add a new Student
+2. find Student
+3. delete Student
+4. add quiz
+5. find student with the highest quiz score 
+6. get course average 
+7. quit 
+select option: 4
+Add quiz:
+student's number(id): 10000001
+quiz scale: 15.0
+student's grade: 12.0
+Quiz added
+
+Course directory commands:
+1. add a new Student
+2. find Student
+3. delete Student
+4. add quiz
+5. find student with the highest quiz score 
+6. get course average 
+7. quit 
+select option: 4
+Add quiz:
+student's number(id): 10000003
+quiz scale: 12.0
+student's grade: 11.5
+Quiz added
+
+Course directory commands:
+1. add a new Student
+2. find Student
+3. delete Student
+4. add quiz
+5. find student with the highest quiz score 
+6. get course average 
+7. quit 
+select option: 4
+Add quiz:
+student's number(id): 10000003
+quiz scale: 15.0
+student's grade: 7.5
+Quiz added
+
+Course directory commands:
+1. add a new Student
+2. find Student
+3. delete Student
+4. add quiz
+5. find student with the highest quiz score 
+6. get course average 
+7. quit 
+select option: 5
+Find student with the highest quiz score:
+gary, zagreb (10000001, gzagr01)
+
+Course directory commands:
+1. add a new Student
+2. find Student
+3. delete Student
+4. add quiz
+5. find student with the highest quiz score 
+6. get course average 
+7. quit 
+select option: 6
+Get course average:
+course average: 49.45
+
+Course directory commands:
+1. add a new Student
+2. find Student
+3. delete Student
+4. add quiz
+5. find student with the highest quiz score 
+6. get course average 
+7. quit 
+select option: 1
+Add a new Student: 
+student's name: mary
+student's surname: wang
+student added: mary, wang (10000005, mwang05)
+
+Course directory commands:
+1. add a new Student
+2. find Student
+3. delete Student
+4. add quiz
+5. find student with the highest quiz score 
+6. get course average 
+7. quit 
+select option: 2
+Find student:
+student's number(id): 100002343
+student not found! 
+
+Course directory commands:
+1. add a new Student
+2. find Student
+3. delete Student
+4. add quiz
+5. find student with the highest quiz score 
+6. get course average 
+7. quit 
+select option: 1
+Add a new Student: 
+student's name: sontung
+student's surname: nguyen
+student added: sontung, nguyen (10000006, snguy06)
+
+Course directory commands:
+1. add a new Student
+2. find Student
+3. delete Student
+4. add quiz
+5. find student with the highest quiz score 
+6. get course average 
+7. quit 
+select option: 2
+Find student:
+student's number(id): 10000004
+peter, backer (10000004, pback04)
+
+Course directory commands:
+1. add a new Student
+2. find Student
+3. delete Student
+4. add quiz
+5. find student with the highest quiz score 
+6. get course average 
+7. quit 
+select option: 2
+Find student:
+student's number(id): 10000005
+mary, wang (10000005, mwang05)
+
+Course directory commands:
+1. add a new Student
+2. find Student
+3. delete Student
+4. add quiz
+5. find student with the highest quiz score 
+6. get course average 
+7. quit 
+select option: 4
+Add quiz:
+student's number(id): 10000004
+quiz scale: 16.0
+student's grade: 15.0
+Quiz added
+
+Course directory commands:
+1. add a new Student
+2. find Student
+3. delete Student
+4. add quiz
+5. find student with the highest quiz score 
+6. get course average 
+7. quit 
+select option: 4
+Add quiz:
+student's number(id): 10000009
+quiz scale: 14.0
+student's grade: 9.0
+student not found!
+
+Course directory commands:
+1. add a new Student
+2. find Student
+3. delete Student
+4. add quiz
+5. find student with the highest quiz score 
+6. get course average 
+7. quit 
+select option: 3
+Delete student:
+student's number(id): 10000001
+gary, zagreb (10000001, gzagr01)
+
+Course directory commands:
+1. add a new Student
+2. find Student
+3. delete Student
+4. add quiz
+5. find student with the highest quiz score 
+6. get course average 
+7. quit 
+select option: 6
+Get course average:
+course average: 41.67
+
+Course directory commands:
+1. add a new Student
+2. find Student
+3. delete Student
+4. add quiz
+5. find student with the highest quiz score 
+6. get course average 
+7. quit 
+select option: 5
+Find student with the highest quiz score:
+peter, backer (10000004, pback04)
+
+Course directory commands:
+1. add a new Student
+2. find Student
+3. delete Student
+4. add quiz
+5. find student with the highest quiz score 
+6. get course average 
+7. quit 
+select option: 7
+Quitting
+------------
+[[name:leon, surname:bard(StudentNumber:10000003, loginId:lbard03)], [name:peter, surname:backer(StudentNumber:10000004, loginId:pback04)], [name:mary, surname:wang(StudentNumber:10000005, loginId:mwang05)], [name:sontung, surname:nguyen(StudentNumber:10000006, loginId:snguy06)]] AverageGrade: 41.67
