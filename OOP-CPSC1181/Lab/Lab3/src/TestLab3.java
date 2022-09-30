@@ -40,22 +40,3 @@ public class TestLab3{
 
 	}
 }
-enum Status{TEMPORARY,PART_TIME, FULL_TIME};
-
-class Person{
-	
-
-}
-
-class Employee extends Person{
-	
-}
-
-
-class Faculty extends Employee{
-	
-}
-
-class Stuff extends Employee{
-	
-}

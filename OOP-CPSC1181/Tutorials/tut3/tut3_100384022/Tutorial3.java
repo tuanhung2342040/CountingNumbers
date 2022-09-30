@@ -108,7 +108,7 @@ class CallingCard extends Card
 
    @Override
    public String toString(){
-      return super.toString() + ", carNumber: " + cardNumber + ", pin: " + pin;
+      return super.toString() + ", car number: " + cardNumber + ", pin number: " + pin;
    }
 
    @Override
@@ -135,7 +135,7 @@ class DriverLicense extends IDCard{
 
   @Override
    public String toString(){
-       return super.toString() + ", expYear: " + expYear;
+       return super.toString() + ", expiry Year: " + expYear;
    }
 
     @Override

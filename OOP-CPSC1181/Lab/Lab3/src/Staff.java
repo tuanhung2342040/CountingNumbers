@@ -24,6 +24,6 @@ public class Staff extends Employee{
     }
 
     public String toString(){
-        return "";
+        return super.toString() +  ", position:" + position;
     }
 }
