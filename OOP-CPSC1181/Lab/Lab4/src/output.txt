@@ -1,0 +1,52 @@
+  
+Test case 1:
+average: 3080
+
+Test case 2:
+Square: [x:20, y:12, length: 92, area:8464.0]
+
+Test case 3:
+list of the shapes:
+Circle: [x:2, y:24, radius:17, area:908.0]
+Circle: [x:31, y:29, radius:39, area:4778.0]
+Square: [x:11, y:36, length: 0, area:0.0]
+Rectangle: [x:43, y:9, width:15, height:23, area:345.0]
+Circle: [x:17, y:10, radius:40, area:5027.0]
+Rectangle: [x:40, y:13, width:33, height:19, area:627.0]
+Square: [x:28, y:34, length: 17, area:289.0]
+Oval: [x:16, y:12, h_radius:19, v_radius:11, area:657.0]
+Square: [x:11, y:32, length: 71, area:5041.0]
+Oval: [x:8, y:11, h_radius:23, v_radius:29, area:2095.0]
+Oval: [x:26, y:25, h_radius:18, v_radius:58, area:3280.0]
+Circle: [x:11, y:41, radius:31, area:3019.0]
+Circle: [x:12, y:39, radius:38, area:4536.0]
+Square: [x:36, y:45, length: 12, area:144.0]
+Rectangle: [x:41, y:12, width:59, height:96, area:5664.0]
+Square: [x:15, y:48, length: 85, area:7225.0]
+Square: [x:20, y:23, length: 64, area:4096.0]
+Square: [x:37, y:35, length: 71, area:5041.0]
+Square: [x:20, y:12, length: 92, area:8464.0]
+Square: [x:43, y:24, length: 19, area:361.0]
+
+Test case 4:
+shapes sorted in ascending order based on their area:
+Square: [x:11, y:36, length: 0, area:0.0]
+Square: [x:36, y:45, length: 12, area:144.0]
+Square: [x:28, y:34, length: 17, area:289.0]
+Rectangle: [x:43, y:9, width:15, height:23, area:345.0]
+Square: [x:43, y:24, length: 19, area:361.0]
+Rectangle: [x:40, y:13, width:33, height:19, area:627.0]
+Oval: [x:16, y:12, h_radius:19, v_radius:11, area:657.0]
+Circle: [x:2, y:24, radius:17, area:908.0]
+Oval: [x:8, y:11, h_radius:23, v_radius:29, area:2095.0]
+Circle: [x:11, y:41, radius:31, area:3019.0]
+Oval: [x:26, y:25, h_radius:18, v_radius:58, area:3280.0]
+Square: [x:20, y:23, length: 64, area:4096.0]
+Circle: [x:12, y:39, radius:38, area:4536.0]
+Circle: [x:31, y:29, radius:39, area:4778.0]
+Circle: [x:17, y:10, radius:40, area:5027.0]
+Square: [x:11, y:32, length: 71, area:5041.0]
+Square: [x:37, y:35, length: 71, area:5041.0]
+Rectangle: [x:41, y:12, width:59, height:96, area:5664.0]
+Square: [x:15, y:48, length: 85, area:7225.0]
+Square: [x:20, y:12, length: 92, area:8464.0]
