@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    font-family: "Sofia Pro Black", Helvetica Neue, Helvetica, Arial, Helvetica, sans-serif;
+
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    text-transform: uppercase;
+    background-color: #0065c3;
+    padding: 10px;
+    color: white;
+}
+
+.navbar-left {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: row;
+}
+
+.navbar-item {
+    padding-left: 20px;
+    cursor: pointer;
+}
+
+.navbar-right .navbar-item {
+    border-radius: 30px;
+    border: 2px solid white;
+    padding: 5px 25px;
+}
+
+.product {
+    display: flex;
+
+}
+
+.product-tem img {
+    max-width: 100%;
+
+}
+
+sdfjsdf
