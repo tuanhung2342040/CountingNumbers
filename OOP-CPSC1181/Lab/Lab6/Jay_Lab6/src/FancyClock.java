@@ -27,15 +27,16 @@ public class FancyClock extends Application {
         root.getChildren().add(a);
 
         // Draw 0,5,.. 55 minutes P(px, py)
+        int length = 30;
         for(int i = 0; i < 60; i++){
             if(i % 5 != 0){
                 drawDot(i, cRadius, cx, cy, Color.BLACK, root);
             }
+            else {
+                drawMinutes(i, length, cRadius, cx, cy, root);
+            }
         }
-        int length = 30;
-        for(int i = 0; i < 60; i+=5) {
-            drawMinutes(i, length, cRadius, cx, cy, root);
-        }
+
         LocalDateTime now = LocalDateTime.now();
         int hours = now.getHour()%12;
         int minutes = now.getMinute();
