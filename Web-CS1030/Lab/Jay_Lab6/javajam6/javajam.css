@@ -1,0 +1,169 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fcebb6;
+  color: #221811;
+  font-family: Tahoma, Arial, sans-serif;
+  background-image: url(images/fadedroad50.jpg);
+  background-repeat:no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+#wrapper {
+  width: 80%;
+  margin-right: auto;
+  margin-left: auto;
+  min-width: 900px;
+  max-width: 1280px;
+  box-shadow: 5px 5px 5px #828282;
+  background-color: #231814;
+  padding: 0;
+}
+
+header {
+  background-color: #d2b48c;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background-image: url(images/coffeelogo.jpg);
+  background-repeat: no-repeat;
+  padding-left: 240px;
+  color: #231814;
+}
+
+header a:link, a:visited {
+  color: #231814;
+}
+
+header a:hover {
+  color: #fef6c2;
+}
+
+
+h1 {
+  font-size: 3em;
+}
+
+nav {
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.5em;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  float: left;
+  width: 200px;
+}
+
+a {
+  text-decoration: none;
+}
+
+nav a:link{
+  color: #fef6c2;
+}
+
+nav a:visited {
+  color: #d2b48c;
+}
+
+nav a:hover {
+  color: #cc9933;
+}
+
+nav ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+main {
+  padding-left: 0;
+  padding-right: 0;
+  padding-bottom: 2em;
+  display: block;
+  margin-left: 200px;
+  padding-top: 0;
+  background-color: #fef6c2;
+  overflow: auto;
+
+}
+
+main h2, h3, h4, p, div, ul, dl {
+  padding-left: 3em;
+  padding-right: 2em;
+}
+
+#homehero {
+  background-image: url(images/hero.jpg);
+  height: 300px;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+#heromugs {
+  background-image: url(images/heromugs.jpg);
+  height: 300px;
+  background-size: 100% 100%;
+  background-repeat: no-repeat; 
+}
+
+#heroguitar {
+  background-image: url(images/heroguitar.jpg);
+  height: 300px;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+h2 {
+  color: #8c3826;
+}
+
+h3, dt {
+  color: #8c3826;
+}
+
+h4 {
+  background-color: #d2b48c;
+  font-size: 1.2em;
+  text-transform: uppercase;
+  border-bottom: solid 1px;
+  padding-bottom: 0;
+  clear: left;
+}
+
+.details {
+  padding-left: 20%;
+  padding-right: 20%;
+  overflow: auto;
+}
+
+
+.floatleft {
+  float: left;
+  padding-right: 2em;
+  padding-bottom: 2em;
+}
+
+.onethird {
+  float: left;
+  width: 33%;
+}
+
+div p {
+  clear: left;
+}
+
+img {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+footer {
+  background-color: #d2b48c;
+  font-size: 0.60em;
+  font-style: italic;
+  text-align: center;
+  padding: 1em;
+  border-top: 2px solid #8c3826;
+}

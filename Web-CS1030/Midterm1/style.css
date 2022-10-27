@@ -1,0 +1,66 @@
+body {
+    background-color: #00008b;
+}
+#wrapper {
+    width: 620px;
+    margin-left: 10%;
+    margin-right: 10%;
+   
+}
+#head1 {
+    background-image: url(images/starheader.jpg);
+    background-repeat: no-repeat;
+    margin: 0;
+}
+h1 {
+    color:whitesmoke;
+    margin: 0;
+}
+
+.nav1{
+    background-image: linear-gradient(darkgray, #a9a9a9);
+    text-align: center;
+
+    
+}
+.nav2 {
+    text-align: center;
+}
+
+#nightsky {
+    height: 200px;
+    width: 300px;
+    float: right;
+    padding-right: 1em;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 1.5em;
+    padding-right: 40px;
+}
+p {
+    padding-left: 3em;
+    margin: 0;
+}
+h2 {
+    margin: 0;
+}
+#div2 {
+    color: whitesmoke;
+    background-image: url(images/galaxy.jpg);
+    background-repeat: no-repeat;
+}
+#div3 {
+    background-color: #add8e6;
+
+}
+.link {
+    color: blue;
+    padding: 0%;
+    margin: 0;
+}
+footer {
+    background-color: #008b8b;
+    text-align: center;
+}
