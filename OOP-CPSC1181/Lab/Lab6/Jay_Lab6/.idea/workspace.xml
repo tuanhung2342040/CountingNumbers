@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0ab701fb-9a94-4857-bbb6-040b2d05a8bd" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../../100384022_Lab5.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab5/Jay_Lab6/src/Clock.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab5/Jay_Lab6/src/FancyClock.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Jay_Lab6/Clock.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Jay_Lab6/Clock.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Jay_Lab6/FancyClock.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Jay_Lab6/FancyClock.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Clock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Clock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FancyClock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FancyClock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../WebDev-CPSC1030/Icon&#10;" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../WebDev-CPSC1030/Lab/Jay_Lab1/CPSC1030_Lab1.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../WebDev-CPSC1030/Lab/Jay_Lab2/Task1/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../WebDev-CPSC1030/Lab/Jay_Lab2/Task1/mine.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../WebDev-CPSC1030/Lab/Jay_Lab2/javajam/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../WebDev-CPSC1030/Lab/Jay_Lab2/javajam/menu.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../WebDev-CPSC1030/Lab/Jay_Lab2/pacific/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../WebDev-CPSC1030/Lab/Jay_Lab2/pacific/yurts.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../WebDev-CPSC1030/Lab/Jay_Lab3/Question1-6/task2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../WebDev-CPSC1030/Lab/Jay_Lab3/Question7/format1.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../WebDev-CPSC1030/Lab/Jay_Lab3/Question7/format2.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../WebDev-CPSC1030/Lab/Jay_Lab3/Question7/moviecss1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../WebDev-CPSC1030/Lab/Jay_Lab3/javajamcss/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../WebDev-CPSC1030/Lab/Jay_Lab3/javajamcss/javajam.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../WebDev-CPSC1030/Lab/Jay_Lab3/javajamcss/menu.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../WebDev-CPSC1030/Lab/Jay_Lab3/pacificcss/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../WebDev-CPSC1030/Lab/Jay_Lab3/pacificcss/pacific.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../WebDev-CPSC1030/Lab/Jay_Lab3/pacificcss/yurts.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../WebDev-CPSC1030/Lab/Jay_Lab3/personalWebPage/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../WebDev-CPSC1030/Lab/Jay_Lab4/MusicalGr/musicgroup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../WebDev-CPSC1030/Lab/Jay_Lab4/MusicalGr/site.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../WebDev-CPSC1030/Lab/Jay_Lab4/javajam4/images/fadedroad50.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../WebDev-CPSC1030/Lab/Jay_Lab4/javajam4/images/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../WebDev-CPSC1030/Lab/Jay_Lab4/javajam4/images/greg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../WebDev-CPSC1030/Lab/Jay_Lab4/javajam4/images/gregthumb.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../WebDev-CPSC1030/Lab/Jay_Lab4/javajam4/images/hero.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../WebDev-CPSC1030/Lab/Jay_Lab4/javajam4/images/melanie.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../WebDev-CPSC1030/Lab/Jay_Lab4/javajam4/images/melaniethumb.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../WebDev-CPSC1030/Lab/Jay_Lab4/javajam4/images/mugs.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../WebDev-CPSC1030/Lab/Jay_Lab4/javajam4/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../WebDev-CPSC1030/Lab/Jay_Lab4/javajam4/javajam.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../WebDev-CPSC1030/Lab/Jay_Lab4/javajam4/menu.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../WebDev-CPSC1030/Lab/Jay_Lab4/javajam4/music.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../WebDev-CPSC1030/Lab/Jay_Lab4/pacific4/activities.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../WebDev-CPSC1030/Lab/Jay_Lab4/pacific4/images/coast.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../WebDev-CPSC1030/Lab/Jay_Lab4/pacific4/images/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../WebDev-CPSC1030/Lab/Jay_Lab4/pacific4/images/sunset.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../WebDev-CPSC1030/Lab/Jay_Lab4/pacific4/images/trail.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../WebDev-CPSC1030/Lab/Jay_Lab4/pacific4/images/yurt.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../WebDev-CPSC1030/Lab/Jay_Lab4/pacific4/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../WebDev-CPSC1030/Lab/Jay_Lab4/pacific4/pacific.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../WebDev-CPSC1030/Lab/Jay_Lab4/pacific4/yurts.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../WebDev-CPSC1030/Lab_Instructions/Lab1.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../WebDev-CPSC1030/Lab_Instructions/Lab2.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../WebDev-CPSC1030/Lab_Instructions/Lab3.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../WebDev-CPSC1030/Lab_Instructions/Lab4.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../WebDev-CPSC1030/SampleCSS/FLoat/as.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../WebDev-CPSC1030/SampleCSS/FLoat/float.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../WebDev-CPSC1030/SampleCSS/FLoat/good-icon.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../WebDev-CPSC1030/SampleCSS/FLoat/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../WebDev-CPSC1030/SampleCSS/Sample/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../WebDev-CPSC1030/SampleCSS/Sample/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../WebDev-CPSC1030/chapter4/4.1/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../WebDev-CPSC1030/chapter4/4.10/contact.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../WebDev-CPSC1030/chapter4/4.10/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../WebDev-CPSC1030/chapter4/4.10/hero.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../WebDev-CPSC1030/chapter4/4.10/heroback.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../WebDev-CPSC1030/chapter4/4.10/home.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../WebDev-CPSC1030/chapter4/4.10/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../WebDev-CPSC1030/chapter4/4.10/kayakdc.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../WebDev-CPSC1030/chapter4/4.10/reservations.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../WebDev-CPSC1030/chapter4/4.10/tours.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../WebDev-CPSC1030/chapter4/4.11/background.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../WebDev-CPSC1030/chapter4/4.11/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../WebDev-CPSC1030/chapter4/4.11/lighthouselogo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../WebDev-CPSC1030/chapter4/4.12/background.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../WebDev-CPSC1030/chapter4/4.12/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../WebDev-CPSC1030/chapter4/4.12/lighthouselogo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../WebDev-CPSC1030/chapter4/4.13/background.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../WebDev-CPSC1030/chapter4/4.13/headerbackblue.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../WebDev-CPSC1030/chapter4/4.13/heroback2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../WebDev-CPSC1030/chapter4/4.13/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../WebDev-CPSC1030/chapter4/4.14/fall.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../WebDev-CPSC1030/chapter4/4.14/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../WebDev-CPSC1030/chapter4/4.15/fall.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../WebDev-CPSC1030/chapter4/4.15/rgba.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../WebDev-CPSC1030/chapter4/4.16/fall.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../WebDev-CPSC1030/chapter4/4.16/hsla.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../WebDev-CPSC1030/chapter4/4.17/linear.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../WebDev-CPSC1030/chapter4/4.17/radial.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../WebDev-CPSC1030/chapter4/4.2/border.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../WebDev-CPSC1030/chapter4/4.3/hero.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../WebDev-CPSC1030/chapter4/4.3/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../WebDev-CPSC1030/chapter4/4.3/kayakdc.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../WebDev-CPSC1030/chapter4/4.4/contact.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../WebDev-CPSC1030/chapter4/4.4/hero.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../WebDev-CPSC1030/chapter4/4.4/home.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../WebDev-CPSC1030/chapter4/4.4/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../WebDev-CPSC1030/chapter4/4.4/kayakdc.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../WebDev-CPSC1030/chapter4/4.4/reservations.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../WebDev-CPSC1030/chapter4/4.4/tours.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../WebDev-CPSC1030/chapter4/4.5/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../WebDev-CPSC1030/chapter4/4.5/myisland.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../WebDev-CPSC1030/chapter4/4.6/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../WebDev-CPSC1030/chapter4/4.6/myisland.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../WebDev-CPSC1030/chapter4/4.7/contact.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../WebDev-CPSC1030/chapter4/4.7/hero.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../WebDev-CPSC1030/chapter4/4.7/heroback.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../WebDev-CPSC1030/chapter4/4.7/home.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../WebDev-CPSC1030/chapter4/4.7/iefix.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../WebDev-CPSC1030/chapter4/4.7/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../WebDev-CPSC1030/chapter4/4.7/kayakdc.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../WebDev-CPSC1030/chapter4/4.7/reservations.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../WebDev-CPSC1030/chapter4/4.7/tours.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../WebDev-CPSC1030/chapter4/4.8/coffee.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../WebDev-CPSC1030/chapter4/4.8/coffeeback.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../WebDev-CPSC1030/chapter4/4.8/coffeepour.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../WebDev-CPSC1030/chapter4/4.8/coffeepour.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../WebDev-CPSC1030/chapter4/4.8/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../WebDev-CPSC1030/chapter4/4.8/marker.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../WebDev-CPSC1030/chapter4/4.9/coffee.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../WebDev-CPSC1030/chapter4/4.9/coffeeback.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../WebDev-CPSC1030/chapter4/4.9/coffeepour.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../WebDev-CPSC1030/chapter4/4.9/coffeepour.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../WebDev-CPSC1030/chapter4/4.9/coffeepour.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../WebDev-CPSC1030/chapter4/4.9/marker.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../WebDev-CPSC1030/chapter4/box.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../WebDev-CPSC1030/chapter4/clip/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../WebDev-CPSC1030/chapter4/clip/myislandback.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../WebDev-CPSC1030/chapter4/coffeestarters/coffee.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../WebDev-CPSC1030/chapter4/coffeestarters/coffee.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../WebDev-CPSC1030/chapter4/coffeestarters/coffeeback.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../WebDev-CPSC1030/chapter4/coffeestarters/coffeepour.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../WebDev-CPSC1030/chapter4/coffeestarters/coffeepour.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../WebDev-CPSC1030/chapter4/coffeestarters/marker.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../WebDev-CPSC1030/chapter4/fishingboat.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../WebDev-CPSC1030/chapter4/gradient/background.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../WebDev-CPSC1030/chapter4/gradient/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../WebDev-CPSC1030/chapter4/gradient/lighthouselogo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../WebDev-CPSC1030/chapter4/map.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../WebDev-CPSC1030/chapter4/meter.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../WebDev-CPSC1030/chapter4/origin/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../WebDev-CPSC1030/chapter4/origin/trilliumsolo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../WebDev-CPSC1030/chapter4/progress.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../WebDev-CPSC1030/chapter4/size/contain.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../WebDev-CPSC1030/chapter4/size/cover.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../WebDev-CPSC1030/chapter4/size/myislandback.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../WebDev-CPSC1030/chapter4/size/sedona.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../WebDev-CPSC1030/chapter4/size/sedonabackground.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../WebDev-CPSC1030/chapter4/starter1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../WebDev-CPSC1030/chapter4/starter2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../WebDev-CPSC1030/chapter4/starter3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../WebDev-CPSC1030/chapter4/starter4.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../WebDev-CPSC1030/chapter4/starters/background.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../WebDev-CPSC1030/chapter4/starters/bg.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../WebDev-CPSC1030/chapter4/starters/butterfly.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../WebDev-CPSC1030/chapter4/starters/circle.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../WebDev-CPSC1030/chapter4/starters/contact.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../WebDev-CPSC1030/chapter4/starters/fall.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../WebDev-CPSC1030/chapter4/starters/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../WebDev-CPSC1030/chapter4/starters/fishcreek/askthevet.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../WebDev-CPSC1030/chapter4/starters/fishcreek/contact.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../WebDev-CPSC1030/chapter4/starters/fishcreek/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../WebDev-CPSC1030/chapter4/starters/fishcreek/fishcreeklogo.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../WebDev-CPSC1030/chapter4/starters/fishcreek/home.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../WebDev-CPSC1030/chapter4/starters/fishcreek/services.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../WebDev-CPSC1030/chapter4/starters/flower.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../WebDev-CPSC1030/chapter4/starters/headerbackblue.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../WebDev-CPSC1030/chapter4/starters/hero.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../WebDev-CPSC1030/chapter4/starters/heroback.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../WebDev-CPSC1030/chapter4/starters/heroback2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../WebDev-CPSC1030/chapter4/starters/home.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../WebDev-CPSC1030/chapter4/starters/homebtn.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../WebDev-CPSC1030/chapter4/starters/javajam/fadedroad50.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../WebDev-CPSC1030/chapter4/starters/javajam/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../WebDev-CPSC1030/chapter4/starters/javajam/greg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../WebDev-CPSC1030/chapter4/starters/javajam/gregthumb.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../WebDev-CPSC1030/chapter4/starters/javajam/hero.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../WebDev-CPSC1030/chapter4/starters/javajam/melanie.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../WebDev-CPSC1030/chapter4/starters/javajam/melaniethumb.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../WebDev-CPSC1030/chapter4/starters/javajam/mugs.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../WebDev-CPSC1030/chapter4/starters/kayakdc.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../WebDev-CPSC1030/chapter4/starters/lighthouselogo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../WebDev-CPSC1030/chapter4/starters/logo.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../WebDev-CPSC1030/chapter4/starters/myisland.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../WebDev-CPSC1030/chapter4/starters/orderbtn.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../WebDev-CPSC1030/chapter4/starters/pacific/coast.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../WebDev-CPSC1030/chapter4/starters/pacific/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../WebDev-CPSC1030/chapter4/starters/pacific/sunset.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../WebDev-CPSC1030/chapter4/starters/pacific/trail.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../WebDev-CPSC1030/chapter4/starters/pacific/yurt.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../WebDev-CPSC1030/chapter4/starters/primelogo.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../WebDev-CPSC1030/chapter4/starters/productsbtn.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../WebDev-CPSC1030/chapter4/starters/reservations.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../WebDev-CPSC1030/chapter4/starters/schaumburg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../WebDev-CPSC1030/chapter4/starters/schaumburgthumb.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../WebDev-CPSC1030/chapter4/starters/tours.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../WebDev-CPSC1030/chapter4/starters/trillium.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../WebDev-CPSC1030/chapter4/starters/twocolor.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../WebDev-CPSC1030/chapter4/starters/twocolor1.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../WebDev-CPSC1030/chapter4/starters/yoga/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../WebDev-CPSC1030/chapter4/starters/yoga/lilyheader.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../WebDev-CPSC1030/chapter4/starters/yoga/yogadoor.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../WebDev-CPSC1030/chapter4/starters/yoga/yogalounge.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../WebDev-CPSC1030/chapter4/starters/yoga/yogamat.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../WebDev-CPSC1030/chapter4/sunset.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../WebDev-CPSC1030/chapter4/template.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../WebDev-CPSC1030/chapter4/thumb.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../WebDev-CPSC1030/chapter4/thumb.jpg" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaFXApplication" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2GSWW3Vn9Nf3E2gEwMLn7tBF7Qu" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;
+  }
+}</component>
+  <component name="RunManager" selected="Application.FancyClock">
+    <configuration name="Clock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Clock" />
+      <module name="Jay_Lab6" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FancyClock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FancyClock" />
+      <module name="Jay_Lab6" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.FancyClock" />
+        <item itemvalue="Application.Clock" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0ab701fb-9a94-4857-bbb6-040b2d05a8bd" name="Changes" comment="" />
+      <created>1666382496687</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1666382496687</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
