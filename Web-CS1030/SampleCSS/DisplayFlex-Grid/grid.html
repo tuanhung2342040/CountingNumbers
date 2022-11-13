@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        .wrapper {
+            display: grid;
+            grid-template-columns: 70% 30%;
+            /*
+            grid-column-gap: 1em;
+            grid-row-gap: 1em;*/
+            grid-gap: 1em;
+        }
+        .wrapper > div {
+            background-color: #eee;
+            padding: 1em;
+        }
+
+        .wrapper > div:nth-child(odd){
+            background-color: #ddd;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <div>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. At, saepe. Dolorum itaque impedit accusantium eius architecto quos sequi quia cupiditate eaque incidunt ipsum error perferendis, nihil asperiores quidem illo iure repellat fuga ducimus fugit obcaecati nesciunt provident. Saepe voluptatem repellendus numquam, sunt adipisci nemo possimus quia labore laborum rem sapiente ipsa quod libero tempora quam magni laudantium molestias quaerat dolores eligendi necessitatibus. Facilis placeat commodi aperiam. Suscipit inventore fugit repellendus doloremque perferendis. Cum maiores animi iste sapiente? Voluptatem, corporis eius.
+        </div>
+        <div>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident similique atque quae maxime magnam illum eius, et sequi aliquam adipisci est fugiat, cumque consequuntur accusamus quis, deserunt saepe fugit quia.
+        </div>
+        <div>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. At, saepe. Dolorum itaque impedit accusantium eius architecto quos sequi quia cupiditate eaque incidunt ipsum error perferendis, nihil asperiores quidem illo iure repellat fuga ducimus fugit obcaecati nesciunt provident. Saepe voluptatem repellendus numquam, sunt adipisci nemo possimus quia labore laborum rem sapiente ipsa quod libero tempora quam magni laudantium molestias quaerat dolores eligendi necessitatibus. Facilis placeat commodi aperiam. Suscipit inventore fugit repellendus doloremque perferendis. Cum maiores animi iste sapiente? Voluptatem, corporis eius.
+        </div>
+        <div>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident similique atque quae maxime magnam illum eius, et sequi aliquam adipisci est fugiat, cumque consequuntur accusamus quis, deserunt saepe fugit quia.
+        </div>
+    </div>
+</body>
+</html>
