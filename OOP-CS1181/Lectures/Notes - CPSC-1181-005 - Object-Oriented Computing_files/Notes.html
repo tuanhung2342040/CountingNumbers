@@ -1,0 +1,121 @@
+
+<!-- saved from url=(0113)https://d2l.langara.bc.ca/content/enforced/204480-30419.202130/cpsc1181/notes/advancedIO/classjava.html?ou=242970 -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"></head><body style="overflow-y: hidden;">class java.lang.<a href="https://docs.oracle.com/javase/6/docs/api/java/lang/Object.html">Object </a><br><br> <div style="margin-left: 40px;">
+     
+        class java.io.<a href="https://docs.oracle.com/javase/6/docs/api/java/io/File.html">File </a> 
+		(implements java.lang.<a href="https://docs.oracle.com/javase/6/docs/api/java/lang/Comparable.html">Comparable</a>, java.io.<a href="https://docs.oracle.com/javase/6/docs/api/java/io/Serializable.html">Serilizable</a>) <br>
+        class java.io.<a href="https://docs.oracle.com/javase/6/docs/api/java/io/FileDescriptor.html">FileDescriptor </a><br></div> 
+
+ 
+
+<br><big style="color: rgb(204, 0, 0);">Binary File Input :</big>
+<ul>
+       <li> class java.io.<a href="https://docs.oracle.com/javase/6/docs/api/java/io/InputStream.html"> InputStream </a></li>
+
+           <ul><li> class java.io.<a href="https://docs.oracle.com/javase/6/docs/api/java/io/ByteArrayInputStream.html"> ByteArrayInputStream</a></li><li>► class java.io.<a href="https://docs.oracle.com/javase/6/docs/api/java/io/FileInputStream.html">FileInputStream</a></li><ul><li> class java.io.<a href="https://docs.oracle.com/javase/6/docs/api/java/io/BufferedInputStream.html">BufferedInputStream</a></li><li>►  class java.io.<a href="https://docs.oracle.com/javase/6/docs/api/java/io/DataInputStream.html">DataInputStream </a> (implements java.io.<a href="https://docs.oracle.com/javase/6/docs/api/java/io/DataInput.html">DataInput)</a></li><li> class java.io.<a href="https://docs.oracle.com/javase/6/docs/api/java/io/LineNumberInputStream.html">LineNumberInputStream</a></li><li> class java.io.<a href="https://docs.oracle.com/javase/6/docs/api/java/io/PushbackInputStream.html">PushbackInputStream</a></li></ul><li>► class java.io.<a href="https://docs.oracle.com/javase/6/docs/api/java/io/ObjectInputStream.html">ObjectInputStream</a>
+		(implements java.io.<a href="https://docs.oracle.com/javase/6/docs/api/java/io/ObjectInput.html">ObjectInput </a>,
+		java.io.<a href="https://docs.oracle.com/javase/6/docs/api/java/io/ObjectStreamConstants.html">ObjectStreamConstants </a></li><li>  class java.io.<a href="https://docs.oracle.com/javase/6/docs/api/java/io/PipedInputStream.html">PipedInputStream</a></li><li> class java.io.<a href="https://docs.oracle.com/javase/6/docs/api/java/io/SequenceInputStream.html">SequenceInputStream</a></li><li> class java.io.<a href="https://docs.oracle.com/javase/6/docs/api/java/io/StringBufferInputStream.html">StringBufferInputStream</a></li></ul>
+            
+           
+               
+               
+           https://docs.oracle.com/javase/6/docs/api/java/lang/Comparable.html
+          
+           
+           
+       <li> class java.io.<a href="https://docs.oracle.com/javase/6/docs/api/java/io/ObjectInputStream.GetField.html">ObjectInputStream.GetField</a></li>
+       <li>class java.io.<a href="https://docs.oracle.com/javase/6/docs/api/java/io/ObjectOutputStream.PutField.html">ObjectOutputStream.PutField</a></li>
+       <li> class java.io.<a href="https://docs.oracle.com/javase/6/docs/api/java/io/ObjectStreamClass.html">ObjectStreamClass</a>
+       (implements java.io.<a href="https://docs.oracle.com/javase/6/docs/api/java/io/Serializable.html">Serilizable</a>)</li>
+       <li> class java.io.<a href="https://docs.oracle.com/javase/6/docs/api/java/io/ObjectStreamField.html">ObjectStreamField</a>
+       (implements java.lang.<a href="https://docs.oracle.com/javase/6/docs/api/java/lang/Comparable.html">Comparable</a>)</li>
+</ul><big style="color: rgb(204, 0, 0);">
+ 
+
+Binary File Output :</big>
+<ul>
+       <li> class java.io.<a href="https://docs.oracle.com/javase/6/docs/api/java/io/OutputStream.html">OutputStream </a></li>               
+       <ul><li>     class java.io.<a href="https://docs.oracle.com/javase/6/docs/api/java/io/ByteArrayOutputStream.html">ByteArrayOutputStream</a></li><li>► class java.io.<a href="https://docs.oracle.com/javase/6/docs/api/java/io/FileOutputStream.html">FileOutputStream</a></li><li>  class java.io.<a href="https://docs.oracle.com/javase/6/docs/api/java/io/FilterOutputStream.html">FilterOutputStream</a></li><ul><li>  class java.io.<a href="https://docs.oracle.com/javase/6/docs/api/java/io/BufferedOutputStream.html">BufferedOutputStream</a></li><li>►  class java.io.<a href="https://docs.oracle.com/javase/6/docs/api/java/io/DataOutputStream.html">DataOutputStream</a>   
+		(implements java.io.<a href="https://docs.oracle.com/javase/6/docs/api/java/io/DataOutpu.html">DataOutput</a>)</li><li>   class java.io.<a href="https://docs.oracle.com/javase/6/docs/api/java/io/PrintStream.html">PrintStream</a></li></ul><li>► class java.io.<a href="https://docs.oracle.com/javase/6/docs/api/java/io/ObjectOutputStream%20.html">ObjectOutputStream</a>   
+	    (implements java.io.<a href="https://docs.oracle.com/javase/6/docs/api/java/io/ObjectOutput.html">ObjectOutput</a>,
+	   java.io.<a href="https://docs.oracle.com/javase/6/docs/api/java/io/ObjectStreamConstants.html">ObjectStreamConstants</a>)</li><li>  class java.io.<a href="https://docs.oracle.com/javase/6/docs/api/java/io/PipedOutputStream.html">PipedOutputStream</a></li></ul>    
+              
+             
+                  
+              
+                 
+           
+              
+      <li>  class java.security.<a href="https://docs.oracle.com/javase/6/docs/api/java/securithy/Permission.html">Permission</a>    
+	(implements java.security.<a href="https://docs.oracle.com/javase/6/docs/api/java/securithy/Guard.html">Guard</a>, 
+	java.io.<a href="https://docs.oracle.com/javase/6/docs/api/java/io/Serializable.html">Serializable</a>)</li>
+           <ul><li> class java.security.<a href="https://docs.oracle.com/javase/6/docs/api/java/io/BasicPermission.html">BasicPermission</a> 
+	    (implements java.io.<a href="https://docs.oracle.com/javase/6/docs/api/java/io/Serializable.html">Serializable</a>)</li><ul><li> class java.io.<a href="https://docs.oracle.com/javase/6/docs/api/java/io/SerializablePermission.html">SerializablePermission</a></li></ul><li>  class java.io.<a href="https://docs.oracle.com/javase/6/docs/api/java/io/FilePermission.html">FilePermission</a>   
+	    (implements java.io.<a href="https://docs.oracle.com/javase/6/docs/api/java/io/Serializable.html">Serializable</a>)</li></ul>
+                  
+      <br>    
+      <li>►  class java.io.<a href="https://docs.oracle.com/javase/6/docs/api/java/io/RandomAccessFile.html">RandomAccessFile</a>   
+	(implements java.io.<a href="https://docs.oracle.com/javase/6/docs/api/java/io/DataInput.html">DataInput</a>,
+	java.io.<a href="https://docs.oracle.com/javase/6/docs/api/java/io/DataOutput.html">DataOutput</a>)
+</li></ul><big style="color: rgb(204, 0, 0);">
+Text File Input :</big>
+<ul>
+       <li> class java.io.<a href="https://docs.oracle.com/javase/6/docs/api/java/io/Reader.html">Reader</a></li>                           
+         <ul><li>   class java.io.<a href="https://docs.oracle.com/javase/6/docs/api/java/io/BufferedReader.html">BudderReader</a></li><ul><li>►       class java.io.<a href="https://docs.oracle.com/javase/6/docs/api/java/io/LineNumberReader.html">LineNumberReader</a></li></ul><li>   class java.io.<a href="https://docs.oracle.com/javase/6/docs/api/java/io/CharArrayReade.html">CharArrayReade</a></li><li>  class java.io.<a href="https://docs.oracle.com/javase/6/docs/api/java/io/FilterReader.html">FilterReader</a></li><ul><li>       class java.io.<a href="https://docs.oracle.com/javase/6/docs/api/java/io/PushbackReader.html">PushbackReader</a></li></ul><li>   class java.io.<a href="https://docs.oracle.com/javase/6/docs/api/java/io/InputStreamReader.html">InputStreamReader</a></li><ul><li>►       class java.io.<a href="https://docs.oracle.com/javase/6/docs/api/java/io/FileReader.html">FileReader</a></li></ul><li>  class java.io.<a href="https://docs.oracle.com/javase/6/docs/api/java/io/PipedReader.html">PipedReader</a></li><li>  class java.io.<a href="https://docs.oracle.com/javase/6/docs/api/java/io/StringReader.html">StringReader</a></li></ul>
+          
+         
+          
+         
+         
+         
+          
+          
+</ul><big style="color: rgb(204, 0, 0);">
+ 
+
+Text File Output :</big>
+<ul>
+      <li>  class java.io.<a href="https://docs.oracle.com/javase/6/docs/api/java/io/Writer.html">Writer</a></li>                             
+        <ul><li>   class java.io.<a href="https://docs.oracle.com/javase/6/docs/api/java/io/BufferedWriter.html">BudderedWriter</a></li><li> class java.io.<a href="https://docs.oracle.com/javase/6/docs/api/java/io/CharArrayWriter.html">CharArrayWriter</a></li><li>  class java.io.<a href="https://docs.oracle.com/javase/6/docs/api/java/io/FilterWriter.html">FileWriter</a></li><li>   class java.io.<a href="https://docs.oracle.com/javase/6/docs/api/java/io/OutputStreamWriter.html">OutputStreamWriter</a></li><ul><li> ►       class java.io.<a href="https://docs.oracle.com/javase/6/docs/api/java/io/FileWriter.html">FileWriter</a></li></ul><li>   class java.io.<a href="https://docs.oracle.com/javase/6/docs/api/java/io/PipedWriter.html">PipeWriter</a></li><li>►   class java.io.<a href="https://docs.oracle.com/javase/6/docs/api/java/io/PrintWriter.html">PrintWriter</a></li><li>  class java.io.<a href="https://docs.oracle.com/javase/6/docs/api/java/io/StringWriter.html">StringWriter</a></li></ul><li>► class java.io.<a href="https://docs.oracle.com/javase/6/docs/api/java/io/StreamTokenizer.html">StreamTokenizer</a></li>
+           
+          
+        
+        
+         
+         
+          
+</ul><big style="color: rgb(204, 0, 0);"> 
+
+ 
+
+Exceptions :</big>
+<br><ul>
+       
+     <li>   class java.lang.<a href="https://docs.oracle.com/javase/6/docs/api/java/lang/Throwable.html">Throwable</a>
+	(implements java.io.<a href="https://docs.oracle.com/javase/6/docs/api/java/io/Serializable.html">Serializable</a>)</li>
+        <ul><li>    class java.lang.<a href="https://docs.oracle.com/javase/6/docs/api/java/lang/Exception.html">Exception</a></li><ul><li>      class java.io.<a href="https://docs.oracle.com/javase/6/docs/api/java/io/IOException.html">IOException</a></li><ul><li>      class java.io.<a href="https://docs.oracle.com/javase/6/docs/api/java/io/CharConversionException.html">CharConversionException</a></li><li>     class java.io.<a href="https://docs.oracle.com/javase/6/docs/api/java/io/EOFException.html">EOFException</a></li><li>    class java.io.<a href="https://docs.oracle.com/javase/6/docs/api/java/io/FileNotFoundException.html">FileNotFoundException</a></li><li>    class java.io.<a href="https://docs.oracle.com/javase/6/docs/api/java/io/InterruptedIOException.html">InterruptedIOException</a></li><li>    class java.io.<a href="https://docs.oracle.com/javase/6/docs/api/java/io/ObjectStreamException.html">ObjectStreamException</a></li><ul><li>      class java.io<a href="https://docs.oracle.com/javase/6/docs/api/java/io/InvalidClassException.html">InvalidClassException 
+
+ 
+
+Exceptions :</a></li><li>     class java.io.<a href="https://docs.oracle.com/javase/6/docs/api/java/io/InvalidObjectException.html">InvalidObjectException</a></li><li>    class java.io.<a href="https://docs.oracle.com/javase/6/docs/api/java/io/NotActiveException.html">NotActiveException</a></li><li>   class java.io.<a href="https://docs.oracle.com/javase/6/docs/api/java/io/NotSerializableException.html">NotSerializableException</a></li><li>   class java.io.<a href="https://docs.oracle.com/javase/6/docs/api/java/io/OptionalDataException.html">OptionalDataException</a></li><li>   class java.io.<a href="https://docs.oracle.com/javase/6/docs/api/java/io/StreamCorruptedException.html">StreamCorruptedException</a></li><li>    class java.io<a href="https://docs.oracle.com/javase/6/docs/api/java/io/WriteAbortedException.html">WriteAbortedException</a></li></ul><li>   class java.io.<a href="https://docs.oracle.com/javase/6/docs/api/java/io/SyncFailedException.html">SyncFailedException</a></li><li>   class java.io<a href="https://docs.oracle.com/javase/6/docs/api/java/io/UnsupportedEncodingException.html">UnsupportedEncodingException</a></li><li>  class java.io.<a href="https://docs.oracle.com/javase/6/docs/api/java/io/UTFDataFormatException.html">UTFDataFormatException</a></li></ul></ul></ul>
+          
+
+              
+               
+                
+                
+                
+
+                  
+                   
+                    
+                     
+                     
+                     
+                    
+                 
+                 
+                  
+</ul>
+ 
+</body></html>
