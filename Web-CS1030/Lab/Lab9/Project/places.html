@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hue's Home PageDocument</title>
+    <link rel="stylesheet" href="project.css">
+  </head>
+  <body>
+    <div id="wrapper">
+      <header>
+        <h1><a href="index.html">Hue</a></h1>
+      </header>
+      <nav>
+        <ul>
+          <li><a href="index.html">home page</a></li>
+          <li><a href="events.html">events</a></li>
+          <li><a href="weather.html">weather</a></li>
+          <li class="dropdown">
+            <button class="mainItem">Places</button>
+            <div class="dropdown-items">
+              <a href="firstPlace.html">First</a>
+              <a href="secondPlace.html">Second</a>
+            </div>
+          </li>
+          <li><a href="history.html">history</a></li>
+          <li class="dropdown">
+            <button class="mainItem">Food</button>
+            <div class="dropdown-items">
+              <a href="bunbohue.html">Bun Bo Hue</a>
+              <a href="banhep.html">Banh Ep</a>
+            </div>
+          </li>
+        </ul>
+      </nav>
+      <main>
+        <form action="" method="post">
+            <label for="name">Name:</label>
+            <input type="text" name="name" id="name" required>
+            <label for="mail">Email:</label>
+            <input type="text" name="mail" id="mail" required>
+            <label for="date">Date of Birth:</label>
+            <input type="date" name="date" id="date" required>
+            <label for="phoneNumber">Phone Number:</label>
+            <input type="text" name="number" id="number" required>
+            <button name="submit" id="submit">submit</button>
+        </form>
+      </main>
+      <footer>
+        <div class="div-footer">
+          <p>This is the footer</p>
+          <a href="mailto:jay@gmail.com">jay@gmail.com</a>
+        </div>
+      </footer>
+    
+    </div>
+  </body>
+</html>

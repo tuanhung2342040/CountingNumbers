@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="description" content="Hue VietNam, register to get around the city">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js">
+    </script>
+    <script  src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.0/jquery.validate.js">
+    </script>
+    <script>
+      $(document).ready(function(){
+        $('form').validate();
+      });
+    </script>
+    <title>Hue's Home PageDocument</title>
+    <link rel="stylesheet" href="project.css">
+  </head>
+  <body>
+    <div id="wrapper">
+      <header>
+        <h1 class="title"><a href="index.html">Hue</a></h1>
+      </header>
+      <nav>
+        <ul>
+          <li><a href="index.html">home page</a></li>
+          <li><a href="events.html">events</a></li>
+          <li><a href="weather.html">weather</a></li>
+          <li><a href="food.html">food</a></li>
+          <li><a href="registration.html">Registration</a></li>
+          <li class="dropdown">
+            <button class="mainItem">Places</button>
+            <div class="dropdown-items">
+              <a href="firstPlace.html">Imperial</a>
+              <a href="secondPlace.html">Thien Mu</a>
+            </div>
+          </li>
+          
+        </ul>
+      </nav>
+      <main>
+        <h1>Registration Form to Attend a Tour in Hue</h1> 
+        <form action="https://webdevbasics.net/scripts/javajam8.php" method="post">
+            <label for="name">Name:</label>
+            <input type="text" name="name" id="name" class="required">
+            <label for="mail">Email:</label>
+            <input type="text" name="mail" id="mail" class="required email">
+            <label for="date">Date of Birth:</label>
+            <input type="date" name="date" id="date" class="required">
+            <label for="number">Phone Number:</label>
+            <input type="text" name="number" id="number" class="required">
+            <button name="submit" id="submit">submit</button>
+        </form>
+      </main>
+      <footer>
+        <div class="div-footer">
+          <p>Contact us</p>
+          <a href="mailto:jay@gmail.com">jay@gmail.com</a>
+        </div>
+      </footer>
+    
+    </div>
+  </body>
+</html>

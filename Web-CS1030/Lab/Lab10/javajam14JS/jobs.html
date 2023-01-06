@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="javajam.css" />
+    <title>JavaJam Jobs</title>
+  </head>
+  <body>
+    <div id="wrapper">
+      <header>
+        <h1><a href="index.html">JavaJam Coffee Bar</a></h1>
+      </header>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="menu.html">Menu</a></li>
+          <li><a href="music.html">Music</a></li>
+          <li><a href="jobs.html">Jobs</a></li>
+        </ul>
+      </nav>
+      <main>
+        <div id="herojobs"></div>
+        <h2 style="padding-left: 1em">Jobs at JavaJam</h2>
+        <p style="padding-left: 1em">
+          Want to work at JavaJam? Fill out the form below to start your
+          application. All information is required.
+        </p>
+        <form
+          action="https://webdevbasics.net/scripts/javajam8.php"
+          method="post"
+        >
+          <label for="myName">Name:</label>
+          <input type="text" name="myName" id="myName" required />
+          <label for="myEmail">E-mail:</label>
+          <input type="email" name="myEmail" id="myEmail" required />
+          <label for="myStart">Start Date:</label>
+          <input type="date" name="myStart" id="myStart" required />
+          <label for="mySubmit">Experience</label>
+          <textarea
+            name="myExperience"
+            id="myExperience"
+            cols="20"
+            rows="2"
+            required
+          ></textarea>
+          <input type="submit" value="Apply Now" id="mySubmit" />
+        </form>
+      </main>
+      <footer>
+        Copyright &copy; 2020 JavaJam Coffee Bar
+        <br />
+        <a href="mailto:jay@nguyen.com">jay@nguyen.com</a>
+      </footer>
+    </div>
+  </body>
+</html>

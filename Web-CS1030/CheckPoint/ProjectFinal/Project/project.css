@@ -1,0 +1,521 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Times New Roman", sans-serif;
+  background-color: white;
+  color: black;
+}
+
+header {
+  background-color: #78a02e;
+}
+
+
+header h1 {
+   font-size: 3em;
+  color: blueviolet;
+}
+
+
+nav {
+  background-color: #78a02e;
+  text-align: center;
+  font-size: 1.5em;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  font-size: 1.25em;
+  
+}
+nav li{
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: center;
+  width: 100%;
+  border-bottom: solid 1px #fff;
+}
+
+nav a, button {
+  text-transform: uppercase;
+  font-size: 1em;
+  color: #fff;
+}
+
+nav a:hover, button:hover {
+  color: blueviolet;
+}
+
+nav a:link, button:link {
+  color: aliceblue;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  background-color: #78a02e;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+}
+.dropdown-items{
+  display: block;
+  position: absolute;
+  left: 0;
+  top: calc(100% + .25em);
+  background-color: #78a02e;
+  padding: .5em;
+  opacity: 0;
+}
+
+.dropdown .mainItem:focus + .dropdown-items {
+  opacity: 1;
+}
+
+
+
+h1, h2{
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  color: black;
+  font-size: 30px;
+}
+
+li {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  color: black; 
+  font-size: 20px;
+}
+
+p {
+  font-size: 17px;
+}
+
+summary {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+#climate {
+  padding-right: 10%;
+  padding-left: 10%;
+  padding-top: 10px;
+}
+
+.content p {
+  padding-top: 1em;
+}
+
+
+#mainPhoto {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(images/hueBuilding.jpg);
+  background-repeat: no-repeat;
+  height: 50vh;
+  background-size: 100% 100%;
+}
+
+#mainPhoto div p {
+  color:aliceblue;
+}
+
+.main-content p, li , h2{
+  color: black;
+}
+
+
+.container-transport {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-size: 100% 100%;
+}
+
+
+.div-pictures {
+  background-image: url(Images/smallhistory.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height: 256px;
+}
+
+.div-pictures2 {
+  background-image: url(Images/smallTruongtien.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height: 256px;
+}
+
+.div-pictures3 {
+  background-image: url(Images/smallmotor.jpeg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height: 256px;
+}
+
+.div-pictures4 {
+  background-image: url(Images/hinhanh-1.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height: 256px;
+}
+
+.content {
+  padding: 25px;
+}
+
+.food1 {
+  background-image: url(Images/smallBunbo.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height: 256px;
+}
+
+.food2 {
+  background-image: url(Images/smallBanhep2.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height: 256px;
+}
+
+.food3 {
+  background-image: url(Images/smallBanhnam.gif);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height: 256px;
+}
+
+.event1 {
+  background-image: url(Images/festival.jpeg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height: 256px;
+}
+
+
+.event2 {
+  background-image: url(Images/smallTetnguyendan.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height: 256px;
+}
+
+
+
+#weather-table {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#weatherImg {
+  background-image: url(images/images.jpeg);
+  background-repeat: no-repeat;
+  height: 50vh;
+  background-size: 100% 100%; 
+}
+
+video {
+  width: 100%;
+}
+
+.info {
+  padding: 20px 20px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+table {
+  text-align: center;
+  border-collapse: collapse;
+  color: black;
+  margin-top: 20px;
+}
+
+th, td, tr {
+  border: solid 1px black;
+  text-align: center;
+  padding: 10px 10px;
+}
+
+caption {
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  padding: 1em 1em;
+  width: 80%;
+}
+
+#submit {
+  padding: 10px 10px;
+  margin-top: 1em;
+  width: 5em;
+  align-self: center;
+}
+
+label, input {
+  padding-top: .5em;
+  padding-bottom: .5em;
+}
+
+
+
+footer {
+  grid-area: footer;
+  background-color: black;
+}
+
+footer p {
+  font-size: larger;  
+  color: #fff;
+}
+
+footer a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.div-footer {
+  padding: 15px 15px;
+  text-align: center;
+}
+
+
+
+
+@media (min-width:600px){
+  header {
+    text-align: center;
+    padding-left: 0;
+  }
+
+
+  h1 {
+    font-size: 3em;
+  }
+
+
+  nav ul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+  }
+
+  nav li {
+    border-bottom: none;
+  }
+
+
+  .container-transport {
+    flex-direction: row;
+  }
+  
+  .container-transport:nth-child(even){
+    flex-direction: row-reverse;
+  }
+
+  .div-pictures, .div-pictures2, .div-pictures3, .div-pictures4, .food1, .food2, .food3, .event1, .event2 {
+    flex-grow:1;
+    flex-shrink: 1;
+    flex-basis: 0;
+  }
+
+
+  .content {
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 0; 
+    align-self: center;
+  }
+
+  form {
+    margin-top: 2em;
+    margin-left: 2em;
+    display: grid;
+    width: 40%;
+    grid-template-columns: 6em 1fr;
+    grid-gap: 1em;
+  }
+
+  #submit {
+    grid-column: 2/3;
+    width: 9em;
+
+  }
+  #imper {
+    position: relative;
+  }
+  
+  figure {
+    position: absolute;
+    left: 280px;
+    text-align: center;
+    opacity: .25;
+  }
+  
+  #imper ul {
+    width: 300px;
+    height: 300px;
+    list-style-type: none;
+  }
+  
+  #imper li {
+    display: inline;
+    float: left;
+    padding: 10px 10px;
+  }
+  
+  #imper img {
+    border: none;
+  }
+  
+  #imper span {
+    position: absolute;
+    left: -1000px;
+    opacity: 0;
+    transition: opacity 2s ease-in-out;
+  }
+  
+  #imper a:hover span {
+    position: absolute;
+    top: 16px;
+    left: 320px;
+    text-align: center;
+    opacity: 1;
+  }
+
+
+}
+
+
+
+@media (min-width:1024px){
+  #wrapper {
+    display: grid;
+    grid-template: "header header"
+                   "nav main"
+                   "footer footer" / 200px;
+  }
+  header {
+    grid-area: header;
+    border-bottom: solid 1px #fff;
+  }
+
+  nav {
+    grid-area: nav;
+  }
+
+  
+
+  nav ul {
+    flex-direction: column;
+  }
+
+  main {
+    grid-area: main;
+  }
+  
+  h1, h2 {
+    font-size: 35px;
+  }
+
+  p {
+    font-size: 20px;
+    
+  }
+
+  form {
+    margin-top: 2em;
+    margin-left: 2em;
+    display: grid;
+    width: 40%;
+    grid-template-columns: 6em 1fr;
+    grid-gap: 1em;
+  }
+
+  #submit {
+    grid-column: 2/3;
+    width: 9em;
+
+  }
+
+  footer {
+    grid-area: footer;
+  }
+
+  nav li {
+    text-align: center;
+  }
+
+  .div-pictures {
+    background-image: url(Images/history.jpg);
+    height: 600px;
+  }
+  .div-pictures2 {
+    background-image: url(Images/motor.jpeg);
+    height: 600px;
+  }
+  
+  .div-pictures3 {
+    background-image: url(Images/truongtien.jpg);
+    height: 600px;
+  }
+  
+  .div-pictures4 {
+    background-image: url(Images/bighinhanh.jpg);
+    height: 600px;
+  }
+  .content {
+    align-self: center;
+  }
+
+  .food1 {
+    background-image: url(Images/bunbohue.jpg);
+    height: 600px;
+  }
+
+  .food2 {
+    background-image: url(Images/banhep.jpg);
+    height: 600px;
+  }
+
+  .food3 {
+    background-image: url(Images/banhnam.gif);
+    height: 600px;
+  }
+
+  .event1 {
+    background-image: url(Images/bigFestival.jpeg);
+    height: 600px;
+  }
+
+  .event2 {
+    background-image: url(Images/Tetnguyendan.jpg);
+    height: 600px;
+  }
+
+
+
+}
